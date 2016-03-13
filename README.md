@@ -15,12 +15,11 @@ Refencias | Valor | Total Uds
 | R1, R2, R3 | [Resistencia 4.7 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-4k3/resistencias-de-carbono-tht-14w/sr-passives/) | 3
 | R4, R5, R6 | [Resistencia 100 Ohm 1/4W](http://www.tme.eu/es/details/cf1_4w-100r/resistencias-de-carbono-tht-14w/sr-passives/) | 3
 | R8, R9, R10, R12, R13, R14, R15 | [Resistencia 120 Ohm 1/4W](http://www.tme.eu/es/details/cf1_4w-120r/resistencias-de-carbono-tht-14w/sr-passives/) | 7
-| R7, R11, R16, R17, R18 | [Resistencia 1 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-1k/resistencias-de-carbono-tht-14w/sr-passives/) | 5
-| R19 | [Resistencia 1 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-1k/resistencias-de-carbono-tht-14w/sr-passives/) | 1
+| R7, R11, R16, R17, R18, R19 | [Resistencia 1 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-1k/resistencias-de-carbono-tht-14w/sr-passives/) | 6
 | R20 | [Resistencia LDR](http://www.tme.eu/es/details/pgm5516/fotoresistencias/token/) | 1
 | C1 | [Condensador electrolitico 0,33 uF 50V](http://www.tme.eu/es/details/umt1hr33mdd/condensadores-electroliticos-tht-105c/nichicon/) | 1
 | C2 | [Condensador electrolitico 0,1 uF 50V](http://www.tme.eu/es/details/umt1h0r1mdd/condensadores-electroliticos-tht-105c/nichicon/) | 1
-| C3 | [Condensador ceamico 100 nF 50V](http://www.tme.eu/es/details/cc-100n/condensadores-ceramicos-tht-50v/sr-passives/) | 1
+| C3 | [Condensador ceramico 100 nF 50V](http://www.tme.eu/es/details/cc-100n/condensadores-ceramicos-tht-50v/sr-passives/) | 1
 | D1 | [Diodo 1N4002](http://www.tme.eu/es/details/1n4002-dc/diodos-universales-tht/dc-components/1n4002/) | 1
 | CON1 | [Conector Barrel Jack 5.5/2.1](http://www.tme.eu/es/details/fc68148/conectores-dc/cliff/) | 1
 | P1 | [Tira de pines macho recto](http://www.tme.eu/es/details/4-103321-8/regletas-y-enchufes-de-taco/te-connectivity/) | 2 pines
