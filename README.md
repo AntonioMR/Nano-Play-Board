@@ -12,7 +12,7 @@ Cara inferior
 ## Lista de materiales
 Refencias | Valor | Total Uds
 ----------|-------|-----------
-| R1, R2, R3 [Resistencia 4.7 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-4k3/resistencias-de-carbono-tht-14w/sr-passives/) | 3
+| R1, R2, R3 | [Resistencia 4.7 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-4k3/resistencias-de-carbono-tht-14w/sr-passives/) | 3
 | R4, R5, R6 | [Resistencia 100 Ohm 1/4W](http://www.tme.eu/es/details/cf1_4w-100r/resistencias-de-carbono-tht-14w/sr-passives/) | 3
 | R8, R9, R10, R12, R13, R14, R15 | [Resistencia 120 Ohm 1/4W](http://www.tme.eu/es/details/cf1_4w-120r/resistencias-de-carbono-tht-14w/sr-passives/) | 7
 | R7, R11, R16, R17, R18 | [Resistencia 1 KOhm 1/4W](http://www.tme.eu/es/details/cf1_4w-1k/resistencias-de-carbono-tht-14w/sr-passives/) | 5
