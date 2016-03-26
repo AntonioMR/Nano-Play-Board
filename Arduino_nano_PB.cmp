@@ -1,45 +1,355 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-25 BZR 5536)-product   date = sam. 04 avril 2015 11:21:18 UTC
+Cmp-Mod V01 Created by PcbNew   date = lun 14 mar 2016 23:16:24 CET
 
 BeginCmp
-TimeStamp = /551D9496;
+TimeStamp = 56E180F9
+Path = /56E174EA
+Reference = U2;
+ValeurCmp = 74HC595;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E1EEB1
+Path = /56E1F945
+Reference = U4;
+ValeurCmp = Arduino_Nano;
+IdModule  = Arduino:Arduino_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E1810C
+Path = /56E0ECB8
+Reference = U3;
+ValeurCmp = Matriz_5x7;
+IdModule  = Leds:Matriz_Led_7X5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C704
+Path = /56E0CF47
+Reference = D1;
+ValeurCmp = 1N4002;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C70C
+Path = /56E13022
+Reference = P7;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C74A
+Path = /56E0BA4D
+Reference = R1;
+ValeurCmp = 4K7;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C750
+Path = /56E0BB83
+Reference = R2;
+ValeurCmp = 4K7;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C756
+Path = /56E0BC01
+Reference = R3;
+ValeurCmp = 4K7;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C75C
+Path = /56DF75AE
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C762
+Path = /56E51D33
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C768
+Path = /56E51DF7
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C76E
+Path = /56E4E974
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C774
+Path = /56E4DBA7
+Reference = R8;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C77A
+Path = /56E4DD99
+Reference = R9;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C780
+Path = /56E4DF7D
+Reference = R10;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C786
+Path = /56E4F034
+Reference = R11;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C78C
+Path = /56E13DF6
+Reference = R12;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C792
+Path = /56E4E11C
+Reference = R13;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C798
+Path = /56E4E1B4
+Reference = R14;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C79E
+Path = /56E4E24F
+Reference = R15;
+ValeurCmp = 120;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C7A4
+Path = /56E4F28A
+Reference = R16;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C7AA
+Path = /56E4F338
+Reference = R17;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C7B0
+Path = /56E4F3EB
+Reference = R18;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C7B6
+Path = /56E5321F
+Reference = R19;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0CCCC
+Path = /56E0A847
+Reference = Led1;
+ValeurCmp = Led_RGB;
+IdModule  = Leds:LED_RGB_5mm_G_B_COM_R_Anodo_comun;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0CCDC
+Path = /56DF798B
+Reference = RV1;
+ValeurCmp = 10K;
+IdModule  = Potenciometros:POT_SR_PASIVES_R9011;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E180EB
+Path = /56E0AD03
+Reference = R20;
+ValeurCmp = LDR;
+IdModule  = Sensores:LDR_TOKEN_PGM5_Series;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E180F1
+Path = /56DF7882
+Reference = SP1;
+ValeurCmp = BUZZER;
+IdModule  = Buzzer:LOUDITY_LD-BZPN-1705;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E1F2F9
+Path = /56E264BD
 Reference = P1;
-ValeurCmp = Digital;
-IdModule  = Socket_Arduino_Nano:Socket_Strip_Arduino_1x15;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D94EF;
-Reference = P2;
-ValeurCmp = Analog;
-IdModule  = Socket_Arduino_Nano:Socket_Strip_Arduino_1x15;
+TimeStamp = 56E1F2FA
+Path = /56E2BFCF
+Reference = U1;
+ValeurCmp = LM7805CT;
+IdModule  = TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D9380;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Nano:1pin_Nano;
+TimeStamp = 56E180C1
+Path = /56E0C1A5
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = Conectores:Barrel_Jack_Hembra_CLIFF_FC68148;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D9414;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Nano:1pin_Nano;
+TimeStamp = 56E35BAB
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = logos:logo_HackLabAl;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D9432;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Nano:1pin_Nano;
+TimeStamp = 56E35C93
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = logos:osh-logo;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D9466;
-Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Nano:1pin_Nano;
+TimeStamp = 56E4C303
+Path = /56E0D0E4
+Reference = C1;
+ValeurCmp = 0,33u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E4C308
+Path = /56E0D155
+Reference = C2;
+ValeurCmp = 0,1u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E4C30D
+Path = /56E1A0B8
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C744
+Path = /56E159D5
+Reference = Q8;
+ValeurCmp = 2N3904BU;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C73D
+Path = /56E1590A
+Reference = Q7;
+ValeurCmp = 2N3904BU;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C736
+Path = /56E15836
+Reference = Q6;
+ValeurCmp = 2N3904BU;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C72F
+Path = /56E156A6
+Reference = Q5;
+ValeurCmp = 2N3904BU;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C728
+Path = /56E1534F
+Reference = Q4;
+ValeurCmp = 2N3904BU;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C721
+Path = /56E0C7C7
+Reference = Q3;
+ValeurCmp = BC547;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C71A
+Path = /56E0C74A
+Reference = Q2;
+ValeurCmp = BC547;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 56E0C713
+Path = /56E0B17C
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = Transistors:TO-92_EnLinea_Estrecho_Oval;
 EndCmp
 
 EndListe
