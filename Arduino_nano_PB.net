@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/amr/Documentos/KiCad/Arduino-Nano-Play-Board/Arduino_nano_PB.sch)
-    (date "dom 13 mar 2016 02:54:21 CET")
+    (date "jue 14 abr 2016 23:41:39 CEST")
     (tool "Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref R4)
       (value 100)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) "SR PASSIVES")
         (field (name Ref) CF1/4W-100R)
@@ -63,7 +63,7 @@
       (tstamp 56E0A847))
     (comp (ref Q1)
       (value BC547)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "DIOTEC SEMICONDUCTOR")
         (field (name Ref) BC547CBK)
@@ -75,20 +75,20 @@
       (tstamp 56E0B17C))
     (comp (ref R1)
       (value 4K7)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56E0BA4D))
     (comp (ref R2)
       (value 4K7)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56E0BB83))
     (comp (ref R3)
       (value 4K7)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -106,7 +106,7 @@
       (tstamp 56E0C1A5))
     (comp (ref Q2)
       (value BC547)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "DIOTEC SEMICONDUCTOR")
         (field (name Ref) BC547CBK)
@@ -118,7 +118,7 @@
       (tstamp 56E0C74A))
     (comp (ref Q3)
       (value BC547)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "DIOTEC SEMICONDUCTOR")
         (field (name Ref) BC547CBK)
@@ -185,7 +185,7 @@
       (tstamp 56E0ECB8))
     (comp (ref R12)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -198,7 +198,7 @@
       (tstamp 56E13DF6))
     (comp (ref Q4)
       (value 2N3904BU)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "FAIRCHILD SEMICONDUCTOR")
         (field (name Ref) 2N3904BU)
@@ -209,7 +209,7 @@
       (tstamp 56E1534F))
     (comp (ref Q5)
       (value 2N3904BU)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "FAIRCHILD SEMICONDUCTOR")
         (field (name Ref) 2N3904BU)
@@ -220,7 +220,7 @@
       (tstamp 56E156A6))
     (comp (ref Q6)
       (value 2N3904BU)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "FAIRCHILD SEMICONDUCTOR")
         (field (name Ref) 2N3904BU)
@@ -231,7 +231,7 @@
       (tstamp 56E15836))
     (comp (ref Q7)
       (value 2N3904BU)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "FAIRCHILD SEMICONDUCTOR")
         (field (name Ref) 2N3904BU)
@@ -242,7 +242,7 @@
       (tstamp 56E1590A))
     (comp (ref Q8)
       (value 2N3904BU)
-      (footprint TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval)
+      (footprint Transistors:TO-92_EnLinea_Estrecho_Oval)
       (fields
         (field (name Fabricante) "FAIRCHILD SEMICONDUCTOR")
         (field (name Ref) 2N3904BU)
@@ -310,7 +310,7 @@
       (tstamp 56E2BFCF))
     (comp (ref R8)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -323,7 +323,7 @@
       (tstamp 56E4DBA7))
     (comp (ref R9)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -336,7 +336,7 @@
       (tstamp 56E4DD99))
     (comp (ref R10)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -349,7 +349,7 @@
       (tstamp 56E4DF7D))
     (comp (ref R13)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -362,7 +362,7 @@
       (tstamp 56E4E11C))
     (comp (ref R14)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -375,7 +375,7 @@
       (tstamp 56E4E1B4))
     (comp (ref R15)
       (value 120)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-120R)
@@ -388,7 +388,7 @@
       (tstamp 56E4E24F))
     (comp (ref R7)
       (value 1K)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-1K)
@@ -401,7 +401,7 @@
       (tstamp 56E4E974))
     (comp (ref R11)
       (value 1K)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-1K)
@@ -414,7 +414,7 @@
       (tstamp 56E4F034))
     (comp (ref R16)
       (value 1K)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-1K)
@@ -427,7 +427,7 @@
       (tstamp 56E4F28A))
     (comp (ref R17)
       (value 1K)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-1K)
@@ -440,7 +440,7 @@
       (tstamp 56E4F338))
     (comp (ref R18)
       (value 1K)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-1K)
@@ -453,7 +453,7 @@
       (tstamp 56E4F3EB))
     (comp (ref R5)
       (value 100)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) "SR PASSIVES")
         (field (name Ref) CF1/4W-100R)
@@ -466,7 +466,7 @@
       (tstamp 56E51D33))
     (comp (ref R6)
       (value 100)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) "SR PASSIVES")
         (field (name Ref) CF1/4W-100R)
@@ -479,7 +479,7 @@
       (tstamp 56E51DF7))
     (comp (ref R19)
       (value 1K)
-      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (footprint Resistencias:Resistencia_1_4_W_10_mm)
       (fields
         (field (name Fabricante) SR_PASSIVES)
         (field (name Ref) CF1/4W-1K)
@@ -753,18 +753,18 @@
         (pin (num 1) (name 1) (type input))
         (pin (num 2) (name 2) (type input)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+    (library (logical Arduino_nano_PB-cache)
+      (uri /home/amr/Documentos/KiCad/Arduino-Nano-Play-Board/Arduino_nano_PB-cache.lib))
     (library (logical 74xx)
       (uri /usr/share/kicad/library/74xx.lib))
-    (library (logical regul)
-      (uri /usr/share/kicad/library/regul.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
+    (library (logical regul)
+      (uri /usr/share/kicad/library/regul.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical Arduino_nano_PB-cache)
-      (uri /home/amr/Documentos/KiCad/Arduino-Nano-Play-Board/Arduino_nano_PB-cache.lib)))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(R15-Pad1)")
       (node (ref U3) (pin 6))
