@@ -34,5 +34,14 @@ Refencias | Valor | Total Uds
 | SP1 | [Transductor de sonido piezoeléctrico](http://www.tme.eu/es/details/ld-bzpn-1705/transductores-piezoelect-sin-generador/loudity/)| 1
 | RV1 | [Potenciometro 10K](http://www.tme.eu/es/details/r9011-1-10k/potenciometros-de-carbono-de-una-revol/sr-passives/)| 1
 
+### Pines
+Referencia | Pin 
+----------|-------
+| Fotoresistencia | A0 |
+| Potenciometro | A1 |
+| Altavoz piezoelectrónico | D3 |
+| Pin Rojo RGB | D9 |
+| Pin Verde RGB | D10 |
+| Pin Azul RGB | D11 |
 
 
