@@ -20,8 +20,9 @@ Registro::Registro()
 {
     _Din = 13; // Pin attached to the serial pin in the shift register
     _ClkIn = 12; // Pin attached to the shift clock pin in the shift register
-    _ClkOut = 21; //Pin atrached to the latch clock pin in the shift register
-    _BaudRate = 9600;
+    //_ClkOut = 19; //Pin attached to the latch clock pin in the shift register para el Arduino Uno
+    _ClkOut = 21; //Pin attached to the latch clock pin in the shift register para el Arduino Nano
+    _BaudRate = 20000;
     _period = long(1000000/_BaudRate);
     pinMode(_Din, OUTPUT);
     pinMode(_ClkIn, OUTPUT);
