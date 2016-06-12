@@ -1,5 +1,25 @@
 # Arduino-Nano-Play-Board
-Placa para experimentar con el Arduino Nano
+Esta placa pretende ser una herramienta de iniciación a la experimentación y aprendizaje de recursos de programación y electrónica con el Arduino/Genuino Nano.
+Dispone de varios sensores, actuadores y puertos para la conexión con otras placas de forma que sea posible explotar todas las funcionalidades de la plataforma Arduino.
+
+## Sensores
+- Una fotoresistencia conectada al pin de entrada analógica A0.
+- Un potenciometro conectado al pin de entrada analógica A1.
+
+## Actuadores
+- Un buzzer conectado al pin de salida digital con capacidad de PWM D3.
+- Un led RGB conectado a los pines de salida digital con capacidad de PWM D9, D10, D11 (rojo, verde y azul respectivamente).
+- Una matriz de led's conectada a los pines de salida digital D2, D4, D5, A2 y A3 para el control de la columna a encender y un registro de desplazamiento controlado mediante los pines D13, D12 y A7 para indicar que fila de cada columna se encenderá.
+
+
+## Estructura del repositorio
+- Raiz: Fuentes del proyecto de la placa de circuito impreso para el software de diseño de PCB [KiCad](http://kicad-pcb.org/).
+- Gerber : Ficheros de fabricacion en formato Gerber de la placa de circuito impreso.
+- Imagenes : Renders de la placa de circuito impreso.
+- Pdf : Ficheros para el montaje en formato pdf. Esquema del circuito, situacion de componentes, etc.
+- Modelos3D : Modelos 3D en formato .wrl para la visualizacion en el proyecto del diseño de la PCB.
+- Soft/lib : Librerias para el uso de los distintos elementos presentes en la placa.
+- Soft/src : Ejemplos de uso de la placa. 
 
 ## Imagenes
 Cara superior
@@ -34,7 +54,7 @@ Refencias | Valor | Total Uds
 | SP1 | [Transductor de sonido piezoeléctrico](http://www.tme.eu/es/details/ld-bzpn-1705/transductores-piezoelect-sin-generador/loudity/)| 1
 | RV1 | [Potenciometro 10K](http://www.tme.eu/es/details/r9011-1-10k/potenciometros-de-carbono-de-una-revol/sr-passives/)| 1
 
-### Pines
+## Pines
 Referencia | Pin 
 ----------|-------
 | Fotoresistencia | A0 |
@@ -43,5 +63,7 @@ Referencia | Pin
 | Pin Rojo RGB | D9 |
 | Pin Verde RGB | D10 |
 | Pin Azul RGB | D11 |
+
+## Licencia
 
 
