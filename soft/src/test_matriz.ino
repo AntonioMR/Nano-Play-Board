@@ -1,3 +1,29 @@
+/* Este es un ejemplo del uso de la matriz de led's en la Placa Arduino Nano Play Board
+ *
+ * Para el correcto funcionamiento de la matriz es necesario realizar un puente entre los 
+ * pines D6 y A7, ya que el pin A7 que en la placa controla la carga de las salidas del 
+ * registro de desplazamiento no es posible controlarlo como un pin de salida digital.
+ * Esta carga pasa a controlarse con el pin D6 en la libreria "Registro.h"
+ *
+ * La libreria "MatrizLed.h" pretende proporcionar la estructura y metodos para el uso de la 
+ * matriz a alto nivel. De momento no funciona correctamente y solo se incluye porque contiene 
+ * la constante ascii[95][5] con la representacion de los caracteres del codigo ascii desde 
+ * el 0x20 hasta el 0x7e
+ *
+ * This library is free software: you can redistribute it and/or modify it under the terms 
+ * of the GNU General Public License as published by the Free Software Foundation, either 
+ * version 3 of the License, or (at your option) any later version.                                  
+ *                                                                      
+ * This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ * See the GNU General Public License for more details.                             
+ *                                                                      
+ * You should have received a copy of the GNU General Public License    
+ * along with this library. If not, see <http://www.gnu.org/licenses/>. 
+ *
+ * Creado en Jun/16 por AMR                                                                      
+ */
+
 #include <Arduino.h>
 #include "Registro.h"
 #include "MatrizLed.h"
@@ -10,6 +36,8 @@ int columna[5]={2, 4, 5, 16, 17}; // Pines que controlan las distintas columnas 
 Registro dato = Registro();  // Variable que controla el valor a representar en una columna
 
 byte dat[5]; // Estructura a imprimir durante el desplazamiento de las letras
+             // Permite representar cualquier patron en la pantalla de forma que se cargan parte de los 
+             // caracteres conforme estos avanzan 
 
 
 void setup(void) {
@@ -55,6 +83,8 @@ void loop(void) {
 
 
 // Muestra en la matriz el caracter enviado durante n veces consecutivas
+// TODO : Eliminar el bucle del numero de veces a representar para evitar que
+//        Programa se quede en el bucle y permita realizar otras cosas en cada ciclo de programa
 void imprimirCaracter(char letra, int veces){
 
   for (int n=0; n < veces; n++){
@@ -80,6 +110,8 @@ void imprimirCaracter(char letra, int veces){
 }
 
 // Muestra en la matriz el patron enviado en el array patron
+// TODO : Eliminar el bucle del numero de veces a representar para evitar que
+//        Programa se quede en el bucle y permita realizar otras cosas en cada ciclo de programa
 void imprimirPatron(byte patron[5], int veces)
 {
   for (int n=0; n < veces; n++){
@@ -90,5 +122,4 @@ void imprimirPatron(byte patron[5], int veces)
       digitalWrite(columna[i], LOW);       // Despues la apaga
     }
   }
-
 }

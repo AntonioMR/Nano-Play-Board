@@ -21,8 +21,8 @@ Registro::Registro()
     _Din = 13; // Pin attached to the serial pin in the shift register
     _ClkIn = 12; // Pin attached to the shift clock pin in the shift register
     //_ClkOut = 19; //Pin attached to the latch clock pin in the shift register para el Arduino Uno
-    _ClkOut = 21; //Pin attached to the latch clock pin in the shift register para el Arduino Nano
-    _BaudRate = 20000;
+    _ClkOut = 6; //Pin attached to the latch clock pin in the shift register para el Arduino Nano
+    _BaudRate = 9600;
     _period = long(1000000/_BaudRate);
     pinMode(_Din, OUTPUT);
     pinMode(_ClkIn, OUTPUT);
@@ -47,7 +47,7 @@ void Registro::Clear()
 void Registro::Write(byte data)
 {
     digitalWrite(_ClkIn, LOW);
-    digitalWrite(_ClkOut,LOW);
+    digitalWrite(_ClkOut, LOW);
 
     for(int k = 0; k < 8; k++){
         delayMicroseconds(long(_period/4));
