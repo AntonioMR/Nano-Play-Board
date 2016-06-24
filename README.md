@@ -1,16 +1,20 @@
 # Arduino-Nano-Play-Board
-Esta placa pretende ser una herramienta de iniciación a la experimentación y aprendizaje de recursos de programación y electrónica con el Arduino/Genuino Nano.
-Dispone de varios sensores, actuadores y puertos para la conexión con otras placas de forma que sea posible explotar todas las funcionalidades de la plataforma Arduino.
+Esta placa pretende ser una herramienta de iniciación a la experimentación y aprendizaje de recursos de programación y electrónica con la placa [Arduino Nano 3.x][3] o compatibles.
+Dispone de varios sensores, actuadores y puertos para la conexión con otras placas de forma que sea posible explotar parte de las funcionalidades de la plataforma Arduino.
+[José Juan Sánchez][1] ha desarrollado una librería para usar la placa que que se encuentra disponile en su [cuenta de github][2]. Esta librería permite un uso fácil de los recursos disponibles en la placa mediante el uso de las clases definidas para los distionts elementos y los metodos para la interactuación con los mismos. 
 
 ## Sensores
 - Una fotoresistencia conectada al pin de entrada analógica A0.
-- Un potenciometro conectado al pin de entrada analógica A1.
+- Un potenciómetro conectado al pin de entrada analógica A1.
 
 ## Actuadores
 - Un buzzer conectado al pin de salida digital con capacidad de PWM D3.
 - Un led RGB conectado a los pines de salida digital con capacidad de PWM D9, D10, D11 (rojo, verde y azul respectivamente).
-- Una matriz de led's conectada a los pines de salida digital D2, D4, D5, A2 y A3 para el control de la columna a encender y un registro de desplazamiento controlado mediante los pines D13, D12 y A7 para indicar que fila de cada columna se encenderá.
+- Una matriz de led's conectada a los pines de salida digital D2, D4, D5, A2 y A3 para el control de la columna a encender y un registro de desplazamiento controlado mediante los pines D13, D12 y A7 para indicar que fila de cada columna se encenderá. **NOTA:** El pin A7 no permite su uso como pin de entrada salida digital. Para poder usar la matriz debe realizarse un puente entre los pines A7 y D6 de la placa y usar el pin D6 de la placa Arduino para controlar la carga de las salidas en el regisro de desplazamiento.
 
+## Puertos
+- Un conector para la realizacion de un puerto serie mediante la libreria "softwareserial" a traves de los pines D7 y D8.
+- Un conector de 4 pines para la conexion de un bus I2C. La placa no incluye las resistencias de pull-up necesarias en las lineas del bus I2C, y estas deberán conectarse externamente.
 
 ## Estructura del repositorio
 - Raiz: Fuentes del proyecto de la placa de circuito impreso para el software de diseño de PCB [KiCad](http://kicad-pcb.org/).
@@ -18,7 +22,7 @@ Dispone de varios sensores, actuadores y puertos para la conexión con otras pla
 - Imagenes : Renders de la placa de circuito impreso.
 - Pdf : Ficheros para el montaje en formato pdf. Esquema del circuito, situacion de componentes, etc.
 - Modelos3D : Modelos 3D en formato .wrl para la visualizacion en el proyecto del diseño de la PCB.
-- Soft/lib : Librerias para el uso de los distintos elementos presentes en la placa.
+- Soft/lib : Librerías para el uso de los distintos elementos presentes en la placa.
 - Soft/src : Ejemplos de uso de la placa. 
 
 ## Imagenes
@@ -65,5 +69,11 @@ Referencia | Pin
 | Pin Azul RGB | D11 |
 
 ## Licencia
+Este diseño es Software Libre; usted puede redistribuirlo y/o modificarlo bajo los términos de la "GNU General Public License" como lo publica la "FSF Free Software Foundation", o (a su elección) de cualquier versión posterior.
 
+Este diseño es distribuido con la esperanza de que le sea útil, pero SIN NINGUNA GARANTIA; incluso sin la garantía implícita por la VENTA o EJERCICIO DE ALGUN PROPOSITO en particular. Vea la "GNU General Public License" para más detalles.
+
+[1]: http://josejuansanchez.org
+[2]: https://github.com/josejuansanchez/NanoPlayBoard/
+[3]: https://www.arduino.cc/en/Main/ArduinoBoardNano
 
