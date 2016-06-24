@@ -1,6 +1,7 @@
 # Arduino-Nano-Play-Board
 Esta placa pretende ser una herramienta de iniciación a la experimentación y aprendizaje de recursos de programación y electrónica con la placa [Arduino Nano 3.x][3] o compatibles.
 Dispone de varios sensores, actuadores y puertos para la conexión con otras placas de forma que sea posible explotar parte de las funcionalidades de la plataforma Arduino.
+
 [José Juan Sánchez][1] ha desarrollado una librería para usar la placa que que se encuentra disponile en su [cuenta de github][2]. Esta librería permite un uso fácil de los recursos disponibles en la placa mediante el uso de las clases definidas para los distionts elementos y los metodos para la interactuación con los mismos. 
 
 ## Sensores
