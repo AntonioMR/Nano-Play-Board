@@ -11,7 +11,7 @@ Dispone de varios sensores, actuadores y puertos para la conexión con otras pla
 ## Actuadores
 - Un buzzer conectado al pin de salida digital con capacidad de PWM D3.
 - Un led RGB conectado a los pines de salida digital con capacidad de PWM D9, D10, D11 (rojo, verde y azul respectivamente).
-- Una matriz de led's conectada a los pines de salida digital D2, D4, D5, A2 y A3 para el control de la columna a encender y un registro de desplazamiento controlado mediante los pines D13, D12 y A7 para indicar que fila de cada columna se encenderá. **NOTA:** El pin A7 no permite su uso como pin de entrada salida digital. Para poder usar la matriz debe realizarse un puente entre los pines A7 y D6 de la placa y usar el pin D6 de la placa Arduino para controlar la carga de las salidas en el regisro de desplazamiento.
+- Una matriz de led's conectada a los pines de salida digital D2, D4, D5, A2 y A3 para el control de la columna a encender y un registro de desplazamiento controlado mediante los pines D13, D12 y D6 para indicar que fila de cada columna se encenderá. **NOTA:** La primera version de las placas usaba el pin A7 en vez del pin D6, y el pin A7 no permite su uso como pin de entrada salida digital. Para poder usar la matriz debe realizarse un puente entre los pines A7 y D6 de la placa y usar el pin D6 de la placa Arduino para controlar la carga de las salidas en el regisro de desplazamiento.
 
 ## Puertos
 - Un conector para la realizacion de un puerto serie mediante la libreria "softwareserial" a traves de los pines D7 y D8.
@@ -68,6 +68,14 @@ Referencia | Pin
 | Pin Rojo RGB | D9 |
 | Pin Verde RGB | D10 |
 | Pin Azul RGB | D11 |
+| Dato de entrada al registro de desplazamiento | D12 |
+| Reloj de carga serie del registro de desplazamiento | D13 |
+| Reloj de carga de las salidas del registro de desplazamiento | D6 |
+| Activación de la primera columna de la matriz | D2 |
+| Activación de la segunda columna de la matriz | D4 |
+| Activación de la tercera columna de la matriz | D5 |
+| Activación de la cuarta columna de la matriz | A2 |
+| Activación de la quinta columna de la matriz | A3 |
 
 ## Licencia
 Este diseño es Software Libre; usted puede redistribuirlo y/o modificarlo bajo los términos de la "GNU General Public License" como lo publica la "FSF Free Software Foundation", o (a su elección) de cualquier versión posterior.
