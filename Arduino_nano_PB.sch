@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MyLibrary
 LIBS:Arduino_nano_PB-cache
 EELAYER 25 0
 EELAYER END
@@ -35,8 +36,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "sam. 04 avril 2015"
-Rev ""
+Date "2016-07-18"
+Rev "a"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -706,7 +707,7 @@ D13
 Text Label 10350 2300 0    60   ~ 0
 D12
 Text Label 10350 2600 0    60   ~ 0
-A7
+D6
 $Comp
 L Arduino_Nano U4
 U 1 1 56E1F945
@@ -1097,14 +1098,9 @@ Text Label 13550 8800 0    60   ~ 0
 D8
 NoConn ~ 8200 4500
 Wire Wire Line
-	8200 4350 8750 4350
-Text Label 8750 4350 2    60   ~ 0
-A7
-Wire Wire Line
 	6900 4500 6350 4500
 Text Label 6350 4500 0    60   ~ 0
 D3
-NoConn ~ 6900 4950
 NoConn ~ 8200 3750
 $Comp
 L LM7805CT U1
@@ -1437,4 +1433,9 @@ Text Notes 900  3200 0    60   ~ 0
 Alimentar mediante\nTME : ZSI7.5/1A\nFabricante SUNNY\nRef: SYS1381-0808\n\no, puenteando el diodo, mediante\nTME : AK-TB-02\nFabricante AKYGA\nRef: CPSUNOTAKY-07290 
 Text Notes 6000 1000 0    197  ~ 0
 ARDUINO NANO PLAY BOARD
+Wire Wire Line
+	6900 4950 6350 4950
+Text Label 6350 4950 0    60   ~ 0
+D6
+NoConn ~ 8200 4350
 $EndSCHEMATC
