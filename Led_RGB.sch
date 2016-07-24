@@ -1,0 +1,283 @@
+EESchema Schematic File Version 2
+LIBS:Sensores
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MyLibrary
+LIBS:Arduino_nano_PB-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R16
+U 1 1 5793DB2D
+P 5550 3050
+F 0 "R16" V 5630 3050 50  0000 C CNN
+F 1 "100" V 5550 3050 50  0000 C CNN
+F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 5480 3050 50  0001 C CNN
+F 3 "" H 5550 3050 50  0000 C CNN
+F 4 "SR PASSIVES" H 5550 3050 60  0001 C CNN "Fabricante"
+F 5 "CF1/4W-100R" H 5550 3050 60  0001 C CNN "Ref"
+F 6 "1/4W" H 5550 3050 60  0001 C CNN "Potencia"
+F 7 "5%" H 5550 3050 60  0001 C CNN "Tolerancia"
+F 8 "TME" H 5550 3050 60  0001 C CNN "Provedor"
+F 9 "CF1/4W-100R" H 5550 3050 60  0001 C CNN "Ref_Proveedor"
+	1    5550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_RGB_Anodo_Comun Led1
+U 1 1 5793DB3A
+P 5750 2700
+F 0 "Led1" H 5960 3320 60  0000 C CNN
+F 1 "Led_RGB" V 5370 3030 60  0000 C CNN
+F 2 "Leds:LED_RGB_5mm_G_B_COM_R_Anodo_comun" H 5750 2700 60  0001 C CNN
+F 3 "" H 5750 2700 60  0000 C CNN
+F 4 "OPTOSUPPLY" H 5750 2700 60  0001 C CNN "Fabricante"
+F 5 "OSTAMA5B31A" H 5750 2700 60  0001 C CNN "Ref"
+F 6 "~" H 5750 2700 60  0001 C CNN "Potencia"
+F 7 "~" H 5750 2700 60  0001 C CNN "Tolerancia"
+F 8 "TME" H 5750 2700 60  0001 C CNN "Provedor"
+F 9 "OSTAMA5B31A" H 5750 2700 60  0001 C CNN "Ref_Proveedor"
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q6
+U 1 1 5793DB47
+P 5200 3850
+F 0 "Q6" H 5400 3925 50  0000 L CNN
+F 1 "BC547" H 5400 3850 50  0000 L CNN
+F 2 "Transistors:TO-92_EnLinea_Estrecho_Oval" H 5400 3775 50  0001 L CIN
+F 3 "" H 5200 3850 50  0000 L CNN
+F 4 "DIOTEC SEMICONDUCTOR" H 5200 3850 60  0001 C CNN "Fabricante"
+F 5 "BC547CBK" H 5200 3850 60  0001 C CNN "Ref"
+F 6 "500mW" H 5200 3850 60  0001 C CNN "Potencia"
+F 7 "~" H 5200 3850 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 5200 3850 60  0001 C CNN "Provedor"
+F 9 "BC547CBK-DIO" H 5200 3850 60  0001 C CNN "Ref_Proveedor"
+	1    5200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5793DB54
+P 4700 3850
+F 0 "R13" V 4780 3850 50  0000 C CNN
+F 1 "4K7" V 4700 3850 50  0000 C CNN
+F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 4630 3850 50  0001 C CNN
+F 3 "" H 4700 3850 50  0000 C CNN
+F 4 "~" H 4700 3850 60  0001 C CNN "Fabricante"
+F 5 "~" H 4700 3850 60  0001 C CNN "Ref"
+F 6 "~" H 4700 3850 60  0001 C CNN "Potencia"
+F 7 "~" H 4700 3850 60  0001 C CNN "Tolerancia"
+F 8 "~" H 4700 3850 60  0001 C CNN "Provedor"
+F 9 "~" H 4700 3850 60  0001 C CNN "Ref_Proveedor"
+	1    4700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 5793DB5B
+P 4700 4250
+F 0 "R14" V 4780 4250 50  0000 C CNN
+F 1 "4K7" V 4700 4250 50  0000 C CNN
+F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 4630 4250 50  0001 C CNN
+F 3 "" H 4700 4250 50  0000 C CNN
+	1    4700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 5793DB68
+P 4700 4650
+F 0 "R15" V 4780 4650 50  0000 C CNN
+F 1 "4K7" V 4700 4650 50  0000 C CNN
+F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 4630 4650 50  0001 C CNN
+F 3 "" H 4700 4650 50  0000 C CNN
+F 4 "~" H 4700 4650 60  0001 C CNN "Fabricante"
+F 5 "~" H 4700 4650 60  0001 C CNN "Ref"
+F 6 "~" H 4700 4650 60  0001 C CNN "Potencia"
+F 7 "~" H 4700 4650 60  0001 C CNN "Tolerancia"
+F 8 "~" H 4700 4650 60  0001 C CNN "Provedor"
+F 9 "~" H 4700 4650 60  0001 C CNN "Ref_Proveedor"
+	1    4700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L BC547 Q7
+U 1 1 5793DB75
+P 5650 4250
+F 0 "Q7" H 5850 4325 50  0000 L CNN
+F 1 "BC547" H 5850 4250 50  0000 L CNN
+F 2 "Transistors:TO-92_EnLinea_Estrecho_Oval" H 5850 4175 50  0001 L CIN
+F 3 "" H 5650 4250 50  0000 L CNN
+F 4 "DIOTEC SEMICONDUCTOR" H 5650 4250 60  0001 C CNN "Fabricante"
+F 5 "BC547CBK" H 5650 4250 60  0001 C CNN "Ref"
+F 6 "500mW" H 5650 4250 60  0001 C CNN "Potencia"
+F 7 "~" H 5650 4250 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 5650 4250 60  0001 C CNN "Provedor"
+F 9 "BC547CBK-DIO" H 5650 4250 60  0001 C CNN "Ref_Proveedor"
+	1    5650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q8
+U 1 1 5793DB82
+P 6100 4650
+F 0 "Q8" H 6300 4725 50  0000 L CNN
+F 1 "BC547" H 6300 4650 50  0000 L CNN
+F 2 "Transistors:TO-92_EnLinea_Estrecho_Oval" H 6300 4575 50  0001 L CIN
+F 3 "" H 6100 4650 50  0000 L CNN
+F 4 "DIOTEC SEMICONDUCTOR" H 6100 4650 60  0001 C CNN "Fabricante"
+F 5 "BC547CBK" H 6100 4650 60  0001 C CNN "Ref"
+F 6 "500mW" H 6100 4650 60  0001 C CNN "Potencia"
+F 7 "~" H 6100 4650 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 6100 4650 60  0001 C CNN "Provedor"
+F 9 "BC547CBK-DIO" H 6100 4650 60  0001 C CNN "Ref_Proveedor"
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR017
+U 1 1 5793DB89
+P 5750 1850
+F 0 "#PWR017" H 5750 1700 50  0001 C CNN
+F 1 "+5V" H 5750 1990 50  0000 C CNN
+F 2 "" H 5750 1850 50  0000 C CNN
+F 3 "" H 5750 1850 50  0000 C CNN
+	1    5750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5793DB8F
+P 5750 5350
+F 0 "#PWR018" H 5750 5100 50  0001 C CNN
+F 1 "GND" H 5750 5200 50  0000 C CNN
+F 2 "" H 5750 5350 50  0000 C CNN
+F 3 "" H 5750 5350 50  0000 C CNN
+	1    5750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2100 5750 1850
+Wire Wire Line
+	4050 4650 4550 4650
+Wire Wire Line
+	4050 4250 4550 4250
+Wire Wire Line
+	4050 3850 4550 3850
+Connection ~ 5750 5150
+Wire Wire Line
+	5750 4450 5750 5350
+Wire Wire Line
+	6200 5150 6200 4850
+Wire Wire Line
+	5300 5150 6200 5150
+Wire Wire Line
+	5300 4050 5300 5150
+Wire Wire Line
+	4850 3850 5000 3850
+Wire Wire Line
+	4850 4250 5450 4250
+Wire Wire Line
+	4850 4650 5900 4650
+Wire Wire Line
+	6200 3800 6200 4450
+Wire Wire Line
+	5950 3800 6200 3800
+Wire Wire Line
+	5950 3200 5950 3800
+Wire Wire Line
+	5750 4050 5750 3200
+Wire Wire Line
+	5550 3400 5550 3200
+Wire Wire Line
+	5300 3400 5550 3400
+Wire Wire Line
+	5300 3650 5300 3400
+Wire Wire Line
+	5950 2700 5950 2900
+Wire Wire Line
+	5750 2700 5750 2900
+Wire Wire Line
+	5550 2700 5550 2900
+$Comp
+L R R17
+U 1 1 5793DBB4
+P 5750 3050
+F 0 "R17" V 5830 3050 50  0000 C CNN
+F 1 "100" V 5750 3050 50  0000 C CNN
+F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 5680 3050 50  0001 C CNN
+F 3 "" H 5750 3050 50  0000 C CNN
+F 4 "SR PASSIVES" H 5750 3050 60  0001 C CNN "Fabricante"
+F 5 "CF1/4W-100R" H 5750 3050 60  0001 C CNN "Ref"
+F 6 "1/4W" H 5750 3050 60  0001 C CNN "Potencia"
+F 7 "5%" H 5750 3050 60  0001 C CNN "Tolerancia"
+F 8 "TME" H 5750 3050 60  0001 C CNN "Provedor"
+F 9 "CF1/4W-100R" H 5750 3050 60  0001 C CNN "Ref_Proveedor"
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 5793DBC1
+P 5950 3050
+F 0 "R18" V 6030 3050 50  0000 C CNN
+F 1 "100" V 5950 3050 50  0000 C CNN
+F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 5880 3050 50  0001 C CNN
+F 3 "" H 5950 3050 50  0000 C CNN
+F 4 "SR PASSIVES" H 5950 3050 60  0001 C CNN "Fabricante"
+F 5 "CF1/4W-100R" H 5950 3050 60  0001 C CNN "Ref"
+F 6 "1/4W" H 5950 3050 60  0001 C CNN "Potencia"
+F 7 "5%" H 5950 3050 60  0001 C CNN "Tolerancia"
+F 8 "TME" H 5950 3050 60  0001 C CNN "Provedor"
+F 9 "CF1/4W-100R" H 5950 3050 60  0001 C CNN "Ref_Proveedor"
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 3850 0    60   Input ~ 0
+D9
+Text GLabel 4050 4250 0    60   Input ~ 0
+D10
+Text GLabel 4050 4650 0    60   Input ~ 0
+D11
+$EndSCHEMATC
