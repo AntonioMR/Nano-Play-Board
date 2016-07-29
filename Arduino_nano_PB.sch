@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date "2016-07-18"
 Rev "a"
@@ -8213,5 +8213,11 @@ S 5000 4950 1400 1050
 U 5794B93F
 F0 "Acelerometro" 60
 F1 "Acelerometro.sch" 60
+$EndSheet
+$Sheet
+S 3100 6500 1400 1000
+U 57993DAA
+F0 "dth11" 60
+F1 "DTH11.sch" 60
 $EndSheet
 $EndSCHEMATC

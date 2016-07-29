@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 7 13
+Sheet 7 14
 Title ""
 Date ""
 Rev ""
@@ -99,7 +99,7 @@ U 1 1 5793F455
 P 3250 2900
 F 0 "R20" V 3330 2900 50  0000 C CNN
 F 1 "1K" V 3250 2900 50  0000 C CNN
-F 2 "Resistencias:Resistencia_1_4_W_10_mm" V 3180 2900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 3180 2900 50  0001 C CNN
 F 3 "" H 3250 2900 50  0000 C CNN
 F 4 "SR_PASSIVES" H 3250 2900 60  0001 C CNN "Fabricante"
 F 5 "CF1/4W-1K" H 3250 2900 60  0001 C CNN "Ref"

@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -166,7 +166,7 @@ Text GLabel 7650 3600 2    60   Input ~ 0
 A5
 Text GLabel 7650 3750 2    60   Input ~ 0
 A4
-Text GLabel 7650 3900 2    60   Input ~ 0
+Text GLabel 7650 3900 2    60   BiDi ~ 0
 A3
 Text GLabel 7650 4050 2    60   Input ~ 0
 A2
@@ -21130,7 +21130,7 @@ Asignacion de pines
 Text Notes 900  6900 0    79   ~ 0
 D0\n\nD1\n\nD2\n\nD3\n\nD4\n\nD5\n\nD6\n\nD7\n\nD8\n\nD9\n\nD10\n\nD11\n\nD12\n\nD13\n\nA0\n\nA1\n\nA2\n\nA3\n\nA4\n\nA5\n\nA6\n\nA7
 Text Notes 1250 6900 0    79   ~ 0
-Bluetooth Tx\n\nBluetooth Rx\n\nD2\n\nBuzzer\n\nReloj de carga de salidas del registro despl.\n\nServo nº 1\n\nServo nº 2\n\nUltrasonidos Trigg\n\nUltrasonidos Echo\n\nLed RGB Rojo\n\nLed RGB Verde\n\nLed RGB Azul\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nBluetooth - Key\n\nA3\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
+Bluetooth Tx\n\nBluetooth Rx\n\nD2\n\nBuzzer\n\nReloj de carga de salidas del registro despl.\n\nServo nº 1\n\nServo nº 2\n\nUltrasonidos Trigg\n\nUltrasonidos Echo\n\nLed RGB Rojo\n\nLed RGB Verde\n\nLed RGB Azul\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nBluetooth - Key\n\nSensor DTH Dato\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
 Wire Notes Line
 	800  1050 800  7000
 Wire Notes Line
@@ -21196,4 +21196,5 @@ F 3 "" H 7450 2400 50  0000 C CNN
 	1    7450 2400
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5750 3650
 $EndSCHEMATC

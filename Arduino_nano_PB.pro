@@ -1,4 +1,4 @@
-update=dom 24 jul 2016 20:23:18 CEST
+update=lun 25 jul 2016 01:59:05 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,8 +59,6 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=/home/amr/Documentos/KiCad/kicad-libraries/MyLibrary
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,3 +70,5 @@ SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=100
 ERC_TestSimilarLabels=1
+[general]
+version=1
