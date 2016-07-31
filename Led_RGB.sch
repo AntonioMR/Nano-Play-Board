@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 14
+Sheet 5 15
 Title ""
 Date ""
 Rev ""
@@ -125,10 +125,10 @@ F 9 "~" H 4700 4650 60  0001 C CNN "Ref_Proveedor"
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR017
+L +5V #PWR010
 U 1 1 5793DB89
 P 5750 1850
-F 0 "#PWR017" H 5750 1700 50  0001 C CNN
+F 0 "#PWR010" H 5750 1700 50  0001 C CNN
 F 1 "+5V" H 5750 1990 50  0000 C CNN
 F 2 "" H 5750 1850 50  0000 C CNN
 F 3 "" H 5750 1850 50  0000 C CNN
@@ -136,10 +136,10 @@ F 3 "" H 5750 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR011
 U 1 1 5793DB8F
 P 5750 5350
-F 0 "#PWR018" H 5750 5100 50  0001 C CNN
+F 0 "#PWR011" H 5750 5100 50  0001 C CNN
 F 1 "GND" H 5750 5200 50  0000 C CNN
 F 2 "" H 5750 5350 50  0000 C CNN
 F 3 "" H 5750 5350 50  0000 C CNN
@@ -223,12 +223,12 @@ F 9 "CF1/4W-100R" H 5950 3050 60  0001 C CNN "Ref_Proveedor"
 	1    5950 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 3850 0    60   Input ~ 0
-D9
 Text GLabel 4050 4250 0    60   Input ~ 0
 D10
 Text GLabel 4050 4650 0    60   Input ~ 0
 D11
+Text GLabel 4050 3850 0    60   Input ~ 0
+D9
 $Comp
 L BC849 Q6
 U 1 1 5797EAC9

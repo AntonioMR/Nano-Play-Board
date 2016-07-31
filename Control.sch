@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 14
+Sheet 3 15
 Title ""
 Date ""
 Rev ""
@@ -58,10 +58,10 @@ F 3 "" H 6450 4950 60  0000 C CNN
 $EndComp
 NoConn ~ 7100 3000
 $Comp
-L GND #PWR013
+L GND #PWR06
 U 1 1 5793CBBD
 P 5550 5300
-F 0 "#PWR013" H 5550 5050 50  0001 C CNN
+F 0 "#PWR06" H 5550 5050 50  0001 C CNN
 F 1 "GND" H 5550 5150 50  0000 C CNN
 F 2 "" H 5550 5300 50  0000 C CNN
 F 3 "" H 5550 5300 50  0000 C CNN
@@ -69,10 +69,10 @@ F 3 "" H 5550 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR07
 U 1 1 5793CBC3
 P 7200 5300
-F 0 "#PWR014" H 7200 5050 50  0001 C CNN
+F 0 "#PWR07" H 7200 5050 50  0001 C CNN
 F 1 "GND" H 7200 5150 50  0000 C CNN
 F 2 "" H 7200 5300 50  0000 C CNN
 F 3 "" H 7200 5300 50  0000 C CNN
@@ -129,10 +129,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 3300 5250 3300
 $Comp
-L +5V #PWR015
+L +5V #PWR08
 U 1 1 5793CBF2
 P 7300 2150
-F 0 "#PWR015" H 7300 2000 50  0001 C CNN
+F 0 "#PWR08" H 7300 2000 50  0001 C CNN
 F 1 "+5V" H 7300 2290 50  0000 C CNN
 F 2 "" H 7300 2150 50  0000 C CNN
 F 3 "" H 7300 2150 50  0000 C CNN
@@ -21130,7 +21130,7 @@ Asignacion de pines
 Text Notes 900  6900 0    79   ~ 0
 D0\n\nD1\n\nD2\n\nD3\n\nD4\n\nD5\n\nD6\n\nD7\n\nD8\n\nD9\n\nD10\n\nD11\n\nD12\n\nD13\n\nA0\n\nA1\n\nA2\n\nA3\n\nA4\n\nA5\n\nA6\n\nA7
 Text Notes 1250 6900 0    79   ~ 0
-Bluetooth Tx\n\nBluetooth Rx\n\nD2\n\nBuzzer\n\nReloj de carga de salidas del registro despl.\n\nServo nº 1\n\nServo nº 2\n\nUltrasonidos Trigg\n\nUltrasonidos Echo\n\nLed RGB Rojo\n\nLed RGB Verde\n\nLed RGB Azul\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nBluetooth - Key\n\nSensor DTH Dato\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
+Bluetooth Tx\n\nBluetooth Rx\n\nEncoder canal A\n\nBuzzer\n\nReloj de carga de salidas del registro despl.\n\nServo nº 1\n\nServo nº 2\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nLed RGB Rojo\n\nLed RGB Verde\n\nLed RGB Azul\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nEncoder canal B\n\nSensor DTH Dato\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
 Wire Notes Line
 	800  1050 800  7000
 Wire Notes Line
@@ -21186,15 +21186,14 @@ Wire Notes Line
 Wire Notes Line
 	4050 1050 800  1050
 $Comp
-L +3V3 #PWR016
+L +3V3 #PWR09
 U 1 1 57954065
 P 7450 2400
-F 0 "#PWR016" H 7450 2250 50  0001 C CNN
+F 0 "#PWR09" H 7450 2250 50  0001 C CNN
 F 1 "+3V3" H 7465 2573 50  0000 C CNN
 F 2 "" H 7450 2400 50  0000 C CNN
 F 3 "" H 7450 2400 50  0000 C CNN
 	1    7450 2400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5750 3650
 $EndSCHEMATC

@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date "2016-07-18"
 Rev "a"
@@ -45,12 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 3100 950  1400 1000
-U 57939A23
-F0 "Matriz Led" 60
-F1 "Matriz_Led.sch" 60
-$EndSheet
 $Sheet
 S 1200 2950 1400 1000
 U 5793C398
@@ -8219,5 +8213,17 @@ S 3100 6500 1400 1000
 U 57993DAA
 F0 "dth11" 60
 F1 "DTH11.sch" 60
+$EndSheet
+$Sheet
+S 1200 6500 1400 1000
+U 579DE89E
+F0 "Encoder" 100
+F1 "Encoder.sch" 100
+$EndSheet
+$Sheet
+S 3100 950  1400 1000
+U 57939A23
+F0 "Matriz Led" 60
+F1 "Matriz_Led.sch" 60
 $EndSheet
 $EndSCHEMATC
