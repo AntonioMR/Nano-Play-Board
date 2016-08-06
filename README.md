@@ -1,24 +1,29 @@
-# Arduino-Nano-Play-Board
+# Nano-Play-Board
 Esta placa pretende ser una herramienta de iniciación a la experimentación y aprendizaje de recursos de programación y electrónica con la placa [Arduino Nano 3.x][3] o compatibles.
 Dispone de varios sensores, actuadores y puertos para la conexión con otras placas de forma que sea posible explotar parte de las funcionalidades de la plataforma Arduino.
 
 [José Juan Sánchez][1] ha desarrollado una librería para usar la placa que que se encuentra disponile en su [cuenta de github][2]. Esta librería permite un uso fácil de los recursos disponibles en la placa mediante el uso de las clases definidas para los distionts elementos y los metodos para la interactuación con los mismos. 
 
 ## Sensores
-- Una fotoresistencia conectada al pin de entrada analógica A0.
-- Un potenciómetro conectado al pin de entrada analógica A1.
+- Una fotoresistencia conectada al pin de entrada analógica A6.
+- Un potenciómetro conectado al pin de entrada analógica A7.
+- Cuatro pulsadores leidos mediante combinación binaria a través de los pines A0 y A1.
+- Un acelerómetro de tres ejes conectado a los pines A4 y A5 por medio del bus I2C.
+- Un encoder incremental de 16 pasos/revolución conectado a los pines D2 y A2.
 
 ## Actuadores
 - Un buzzer conectado al pin de salida digital con capacidad de PWM D3.
 - Un led RGB conectado a los pines de salida digital con capacidad de PWM D9, D10, D11 (rojo, verde y azul respectivamente).
-- Una matriz de led's conectada a los pines de salida digital D2, D4, D5, A2 y A3 para el control de la columna a encender y un registro de desplazamiento controlado mediante los pines D13, D12 y D6 para indicar que fila de cada columna se encenderá. **NOTA:** La primera version de las placas usaba el pin A7 en vez del pin D6, y el pin A7 no permite su uso como pin de entrada salida digital. Para poder usar la matriz debe realizarse un puente entre los pines A7 y D6 de la placa y usar el pin D6 de la placa Arduino para controlar la carga de las salidas en el regisro de desplazamiento.
+- Una matriz de led's conectada a dos registros de desplazamiento controlados mediante los pines D13, D12 y D4 para indicar la columna a encender como el patrón a visualizar en la columna. 
 
 ## Puertos
-- Un conector para la realizacion de un puerto serie mediante la libreria "softwareserial" a traves de los pines D7 y D8.
-- Un conector de 4 pines para la conexion de un bus I2C. La placa no incluye las resistencias de pull-up necesarias en las lineas del bus I2C, y estas deberán conectarse externamente.
+- Un zócalo hembra para conectar un detector de objetos por ultrasonidos conectado a los pines D7 y D8.
+- Un zócalo hembra para conectar un sensor de temperatura y humedad tipo DTH11/DTH22 conectado al pin A3.
+- Dos zócalos macho para conectar dos servomotores conectados a los pines D5 y D6.
+- Un zócalo hembra para conectar un modulo Bluetooth HC-05/HC-6.
 
 ## Estructura del repositorio
-- Raiz: Fuentes del proyecto de la placa de circuito impreso para el software de diseño de PCB [KiCad](http://kicad-pcb.org/).
+- Raiz: Fuentes del proyecto de la placa de circuito impreso para el software de diseño de PCB [KiCad][4].
 - Gerber : Ficheros de fabricacion en formato Gerber de la placa de circuito impreso.
 - Imagenes : Renders de la placa de circuito impreso.
 - Pdf : Ficheros para el montaje en formato pdf. Esquema del circuito, situacion de componentes, etc.
@@ -62,20 +67,25 @@ Refencias | Valor | Total Uds
 ## Pines
 Referencia | Pin 
 ----------|-------
-| Fotoresistencia | A0 |
-| Potenciometro | A1 |
+| Fotoresistencia | A6 |
+| Potenciometro | A7 |
 | Altavoz piezoelectrónico | D3 |
 | Pin Rojo RGB | D9 |
 | Pin Verde RGB | D10 |
 | Pin Azul RGB | D11 |
-| Dato de entrada al registro de desplazamiento | D12 |
-| Reloj de carga serie del registro de desplazamiento | D13 |
-| Reloj de carga de las salidas del registro de desplazamiento | D6 |
-| Activación de la primera columna de la matriz | D2 |
-| Activación de la segunda columna de la matriz | D4 |
-| Activación de la tercera columna de la matriz | D5 |
-| Activación de la cuarta columna de la matriz | A2 |
-| Activación de la quinta columna de la matriz | A3 |
+| Dato de entrada al registros de desplazamiento | D12 |
+| Reloj de carga serie del registros de desplazamiento | D13 |
+| Reloj de carga de las salidas de los registros de desplazamiento | D4 |
+| Canal A del encoder | D2 |
+| Canal B del encoder | A2 |
+| Señal PWM del Servo 1 | D5 |
+| Señal PWM del Servo 2 | D6 |
+| Control del sensor de Temperatura/humedad | A3 |
+| Sensor ultrasonidos terminal Trig | D8 |
+| Sensor ultrasonidos terminal Echo | D7 |
+| Codigo binario estado pulsadores bit0 | A0 |
+| Codigo binario estado pulsadores bit1 | A1 |
+
 
 ## Licencia
 Este diseño es Software Libre; usted puede redistribuirlo y/o modificarlo bajo los términos de la "GNU General Public License" como lo publica la "FSF Free Software Foundation", o (a su elección) de cualquier versión posterior.
@@ -85,4 +95,4 @@ Este diseño es distribuido con la esperanza de que le sea útil, pero SIN NINGU
 [1]: http://josejuansanchez.org
 [2]: https://github.com/josejuansanchez/NanoPlayBoard/
 [3]: https://www.arduino.cc/en/Main/ArduinoBoardNano
-
+[4]: http://kicad-pcb.org/
