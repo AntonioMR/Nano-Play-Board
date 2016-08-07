@@ -57,7 +57,7 @@ Refencias | Valor | Total Uds
 | CON1 | [Conector Barrel Jack 5.5/2.1](http://www.tme.eu/es/details/fc68148/conectores-dc/cliff/) | 1
 | P1 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 6 pines
 | P2 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 1 pin
-| P3, P4 | [Tira de pines macho recto](http://www.tme.eu/es/details/4-103321-8/regletas-y-enchufes-de-taco/te-connectivity/) | 3 pine
+| P3, P4 | [Tira de pines macho recto](http://www.tme.eu/es/details/4-103321-8/regletas-y-enchufes-de-taco/te-connectivity/) | 3 pines
 | P5 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 3 pines
 | P6 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 4 pines
 | U1 | [Arduino Nano](https://www.arduino.cc/en/Main/ArduinoBoardNano) | 1
