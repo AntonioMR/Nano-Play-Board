@@ -106,11 +106,11 @@ Este diseño es distribuido con la esperanza de que le sea útil, pero SIN NINGU
 
 ## Creditos
 Los modelos 3D de los siguientes componentes están creados a partir de los modelos originales indicados a continuación:
-Componente | Autor | Modelo |
+Componente | Autor | Modelo 
 -----------|-------|--------
-Arduino Nano V3 | [Carlos AG](http://www.3dcontentcentral.com/Contributors.aspx?id=669699) | [Modelo](http://www.3dcontentcentral.com/parts/download-part.aspx?id=387975&catalogid=171)
-Bluetooth HC-06 | [Felix Georgievich ILgach](http://www.3dcontentcentral.com/Contributors.aspx?id=1658685) | [Modelo](http://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=542660)
-Detector HC-SR04 | [Renato Alonso Hurtado Medina](http://www.3dcontentcentral.com/Contributors.aspx?id=1704559) | [Modelo](http://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=655885)
+Arduino Nano V3 | [Carlos AG](http://www.3dcontentcentral.com/Contributors.aspx?id=669699) | [Modelo](http://www.3dcontentcentral.com/parts/download-part.aspx?id=387975&catalogid=171) |
+Bluetooth HC-06 | [Felix Georgievich ILgach](http://www.3dcontentcentral.com/Contributors.aspx?id=1658685) | [Modelo](http://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=542660) |
+Detector HC-SR04 | [Renato Alonso Hurtado Medina](http://www.3dcontentcentral.com/Contributors.aspx?id=1704559) | [Modelo](http://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=655885) |
 
 [1]: http://josejuansanchez.org
 [2]: https://github.com/josejuansanchez/NanoPlayBoard/
