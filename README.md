@@ -106,6 +106,7 @@ Este diseño es distribuido con la esperanza de que le sea útil, pero SIN NINGU
 
 ## Creditos
 Los modelos 3D de los siguientes componentes están creados a partir de los modelos originales indicados a continuación:
+
 Componente | Autor | Modelo 
 -----------|-------|--------
 | Arduino Nano V3 | [Carlos AG][5] | [Modelo][6] 
