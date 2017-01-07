@@ -1,30 +1,19 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# +3.3V-RESCUE-nano_shield
+# POT-RESCUE-Nano_PB
 #
-DEF +3.3V-RESCUE-nano_shield #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -40 30 H I C CNN
-F1 "+3.3V-RESCUE-nano_shield" 0 110 30 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF POT-RESCUE-Nano_PB RV 0 40 Y N 1 F N
+F0 "RV" 0 -80 50 H V C CNN
+F1 "POT-RESCUE-Nano_PB" 0 0 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
-X +3.3V 1 0 0 0 U 30 30 0 0 W N
-C 0 60 20 0 1 0 N
-P 3 0 1 0  0 0  0 40  0 40 N
-ENDDRAW
-ENDDEF
-#
-# GND-RESCUE-nano_shield
-#
-DEF ~GND-RESCUE-nano_shield #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 0 30 H I C CNN
-F1 "GND-RESCUE-nano_shield" 0 -70 30 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 4 0 1 0  -50 0  0 -50  50 0  -50 0 N
-X GND 1 0 0 0 U 30 30 1 1 W N
+S -100 40 100 -40 0 1 0 N
+P 3 0 1 0 0 40 -20 60 20 60 F
+X 1 1 -150 0 50 R 40 40 1 1 P
+X 2 2 0 150 100 D 40 40 1 1 P
+X 3 3 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

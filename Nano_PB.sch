@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:Interfaces
+LIBS:Nano_PB-rescue
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -30,15 +32,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
+LIBS:matriz_led
 LIBS:Nano_PB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "Nano Play Board"
-Date "2016-08-07"
-Rev "V.0.2"
+Date "2017-01-04"
+Rev "V.0.3"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -58,31 +61,31 @@ F0 "Alimentacion" 60
 F1 "Alimentacion.sch" 60
 $EndSheet
 $Sheet
-S 5250 1200 1200 800 
+S 4550 1200 1200 800 
 U 57939A23
 F0 "Matriz Led" 60
 F1 "Matriz_Led.sch" 60
 $EndSheet
 $Sheet
-S 3350 1200 1200 800 
+S 3050 1200 1200 800 
 U 5794B6BE
 F0 "Bluetooth" 60
 F1 "Bluetooth.sch" 60
 $EndSheet
 $Sheet
-S 7150 1200 1200 800 
+S 6050 1200 1200 800 
 U 5793F6CB
 F0 "Servo" 60
 F1 "Servo.sch" 60
 $EndSheet
 $Sheet
-S 9050 1200 1200 800 
+S 7550 1200 1200 800 
 U 5793D145
 F0 "Led_RGB" 60
 F1 "Led_RGB.sch" 60
 $EndSheet
 $Sheet
-S 9050 2550 1200 800 
+S 9050 1200 1200 800 
 U 57993DAA
 F0 "dth11" 60
 F1 "DTH11.sch" 60
@@ -3724,7 +3727,7 @@ F5 05 20 84 10 42 08 21 64 01 73 2A 42 08 21 84 10 AA 47 D8 EF 8F 10 42 08 21 84
 CC A9 08 21 84 10 42 A8 1E 61 4E 45 08 21 84 10 42 F5 08 E7 52 21 84 10 42 08 A1 7A 84 F5 54 84 
 10 42 08 21 54 8F 30 A7 22 84 10 42 08 A1 7A 84 73 A9 10 42 08 21 84 50 3D C2 7A 2A 42 08 21 84 
 10 AA 47 98 53 11 42 08 21 84 50 3D C2 7E 7F 84 10 42 08 21 54 8F FE 7F 0B 07 BA 83 B7 6B 1C F8 
-00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
 Text Notes 1000 7450 0    79   ~ 0
@@ -5479,7 +5482,13 @@ C6 8F 05 26 A5 42 BF 3D 00 B8 C1 6E BA 72 97 D7 D1 C2 51 5A 16 A1 01 51 96 23 FF
 E3 B2 DE 40 51 B8 6C 63 4A 94 E6 5E EE 0F 84 43 C9 4C C1 15 BB 51 E0 33 5F AA F7 E9 EC 6A E5 BA 
 50 17 92 01 51 92 64 0C CE 27 7B 4E 87 A3 FC C9 E9 39 BC D0 3B DC 1F CF E6 3C 60 30 83 10 3D 18 
 F4 0B 89 52 73 00 8B 80 91 08 28 22 8F 6D AB AA BD D3 E7 C4 3E A7 59 B4 A9 94 4D 1C A1 84 52 AC 
-9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Sheet
+S 9050 2550 1200 800 
+U 5870CC54
+F0 "Infrarrojos" 50
+F1 "Infrarrojos.sch" 50
+$EndSheet
 $EndSCHEMATC

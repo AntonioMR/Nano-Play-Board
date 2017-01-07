@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:Interfaces
+LIBS:Nano_PB-rescue
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -30,15 +32,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
+LIBS:matriz_led
 LIBS:Nano_PB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 16
 Title "Control de la placa"
-Date "2016-08-07"
-Rev "V.0.2"
+Date "2017-01-04"
+Rev "V.0.3"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -176,17 +179,9 @@ Text GLabel 7650 4350 2    60   Input ~ 0
 A0
 Text GLabel 7650 4800 2    60   Output ~ 0
 D13
-Text GLabel 5250 2700 0    60   Input ~ 0
-D1
-Wire Wire Line
-	5250 2700 5800 2700
-Wire Wire Line
-	5250 2850 5800 2850
-Text GLabel 5250 2850 0    60   Input ~ 0
-D0
 Text GLabel 5250 3300 0    60   Input ~ 0
 D2
-Text GLabel 5250 3450 0    60   Output ~ 0
+Text GLabel 5250 3450 0    60   Input ~ 0
 D3
 Text GLabel 5250 3600 0    60   Input ~ 0
 D4
@@ -21122,7 +21117,7 @@ DB 24 FC F8 20 08 82 20 B8 4D 42 E3 83 20 08 82 E0 36 09 8D 0F 82 20 08 82 DB 24
 82 20 08 6E 93 D0 F8 20 08 82 20 B8 4D 42 E3 83 20 08 82 E0 36 09 8D 0F 82 20 08 82 DB 24 34 3E 
 08 82 20 08 6E 93 D0 F8 20 08 82 20 B8 4D 42 E3 83 20 08 82 E0 36 09 8D 0F 82 20 08 82 DB 24 34 
 3E 08 82 20 08 6E 93 D0 F8 20 08 82 20 B8 4D 42 E3 83 20 08 82 E0 36 09 8D 0F 82 20 08 82 DB E4 
-FF 01 8A 98 D1 7C B7 EF D0 30 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+FF 01 8A 98 D1 7C B7 EF D0 30 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
 Text Notes 950  1350 0    197  ~ 0
@@ -21130,7 +21125,7 @@ Asignacion de pines
 Text Notes 900  6900 0    79   ~ 0
 D0\n\nD1\n\nD2\n\nD3\n\nD4\n\nD5\n\nD6\n\nD7\n\nD8\n\nD9\n\nD10\n\nD11\n\nD12\n\nD13\n\nA0\n\nA1\n\nA2\n\nA3\n\nA4\n\nA5\n\nA6\n\nA7
 Text Notes 1250 6900 0    79   ~ 0
-Bluetooth Tx\n\nBluetooth Rx\n\nEncoder canal A\n\nBuzzer\n\nReloj de carga de salidas del registro despl.\n\nServo nº 1\n\nServo nº 2\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nLed RGB Rojo\n\nLed RGB Verde\n\nLed RGB Azul\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nEncoder canal B\n\nSensor DTH Dato\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
+USB Tx\n\nUSB Rx\n\nEncoder canal A\n\nInterrupción Acelerómetro\n\nReloj de carga de salidas del registro despl.\n\nEncoder canal B\n\nInfrarrojos Izquierdo\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nInfrarrojos Derecho\n\nInalámbrico Tx\n\nInalámbrico Rx\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nPulsadores - Detección Pulsación\n\nSensor DTH Dato\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
 Wire Notes Line
 	800  1050 800  7000
 Wire Notes Line
@@ -22946,7 +22941,9 @@ C6 8F 05 26 A5 42 BF 3D 00 B8 C1 6E BA 72 97 D7 D1 C2 51 5A 16 A1 01 51 96 23 FF
 E3 B2 DE 40 51 B8 6C 63 4A 94 E6 5E EE 0F 84 43 C9 4C C1 15 BB 51 E0 33 5F AA F7 E9 EC 6A E5 BA 
 50 17 92 01 51 92 64 0C CE 27 7B 4E 87 A3 FC C9 E9 39 BC D0 3B DC 1F CF E6 3C 60 30 83 10 3D 18 
 F4 0B 89 52 73 00 8B 80 91 08 28 22 8F 6D AB AA BD D3 E7 C4 3E A7 59 B4 A9 94 4D 1C A1 84 52 AC 
-9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+NoConn ~ 5800 2700
+NoConn ~ 5800 2850
 $EndSCHEMATC

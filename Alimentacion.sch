@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:Interfaces
+LIBS:Nano_PB-rescue
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -30,15 +32,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
+LIBS:matriz_led
 LIBS:Nano_PB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 3 15
+Sheet 3 16
 Title "Etapa de alimentación"
-Date "2016-08-07"
-Rev "V.0.2"
+Date "2017-01-04"
+Rev "V.0.3"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -194,8 +197,6 @@ Wire Wire Line
 Connection ~ 5200 2000
 Wire Wire Line
 	5200 2150 5200 2000
-Wire Wire Line
-	4900 2000 5750 2000
 Connection ~ 4500 2600
 Wire Wire Line
 	4500 2300 4500 2750
@@ -1989,7 +1990,37 @@ C6 8F 05 26 A5 42 BF 3D 00 B8 C1 6E BA 72 97 D7 D1 C2 51 5A 16 A1 01 51 96 23 FF
 E3 B2 DE 40 51 B8 6C 63 4A 94 E6 5E EE 0F 84 43 C9 4C C1 15 BB 51 E0 33 5F AA F7 E9 EC 6A E5 BA 
 50 17 92 01 51 92 64 0C CE 27 7B 4E 87 A3 FC C9 E9 39 BC D0 3B DC 1F CF E6 3C 60 30 83 10 3D 18 
 F4 0B 89 52 73 00 8B 80 91 08 28 22 8F 6D AB AA BD D3 E7 C4 3E A7 59 B4 A9 94 4D 1C A1 84 52 AC 
-9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	4900 2000 6000 2000
+$Comp
+L VSS #PWR010
+U 1 1 587197E0
+P 4750 2750
+F 0 "#PWR010" H 4750 2600 50  0001 C CNN
+F 1 "VSS" H 4750 2900 50  0000 C CNN
+F 2 "" H 4750 2750 50  0000 C CNN
+F 3 "" H 4750 2750 50  0000 C CNN
+	1    4750 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 2750 4750 2600
+Connection ~ 4750 2600
+$Comp
+L VDD #PWR011
+U 1 1 58719840
+P 6000 1850
+F 0 "#PWR011" H 6000 1700 50  0001 C CNN
+F 1 "VDD" H 6000 2000 50  0000 C CNN
+F 2 "" H 6000 1850 50  0000 C CNN
+F 3 "" H 6000 1850 50  0000 C CNN
+	1    6000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2000 6000 1850
+Connection ~ 5750 2000
 $EndSCHEMATC

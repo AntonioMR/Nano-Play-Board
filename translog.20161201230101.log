@@ -1,0 +1,8 @@
+mod	trans_guid	split_guid	time_now	date_entered	date_posted	acc_guid	acc_name	num	description	notes	memo	action	reconciled	amount	value	date_reconciled
+-----------------
+===== START
+===== END
+===== START
+C	4b35f5a81fa6eaa9870f9a397b1bbb5d	87febf69f04def695f6c00c2c0791aa9	2016-12-01 23:01:01.000000 +0100	2016-12-01 23:01:01.000000 +0100	2016-12-01 00:00:00.000000 +0100	0d0918bb8f50b5961b67ae739ad4613b	Cuenta corriente		Saldo de apertura				n	3347463/100	3347463/100	1970-01-01 01:00:00.000000 +0100
+C	4b35f5a81fa6eaa9870f9a397b1bbb5d	1a221bd883299bf4a7ec38e9d1906248	2016-12-01 23:01:01.000000 +0100	2016-12-01 23:01:01.000000 +0100	2016-12-01 00:00:00.000000 +0100	41975b6d7af40b79c797cd14671dbc5e	Saldos de apertura		Saldo de apertura				n	-3347463/100	-3347463/100	1970-01-01 01:00:00.000000 +0100
+===== END
