@@ -24171,7 +24171,7 @@ F 7 "~" H 2850 3350 60  0001 C CNN "Tolerancia"
 F 8 "tme" H 2850 3350 60  0001 C CNN "Provedor"
 F 9 "ZL262-8DG" H 2850 3350 60  0001 C CNN "Ref_Proveedor"
 	1    2850 3350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CP1 C5
