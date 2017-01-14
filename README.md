@@ -87,24 +87,28 @@ Refencias | Valor | Total Uds
 ## Pines
 Referencia | Pin 
 ----------|-------
-| Fotoresistencia | A6 |
-| Potenciometro | A7 |
-| Altavoz piezoelectrónico | D3 |
-| Pin Rojo RGB | D9 |
-| Pin Verde RGB | D10 |
-| Pin Azul RGB | D11 |
-| Dato de entrada al registros de desplazamiento | D12 |
-| Reloj de carga serie del registros de desplazamiento | D13 |
-| Reloj de carga de las salidas de los registros de desplazamiento | D4 |
-| Canal A del encoder | D2 |
-| Canal B del encoder | A2 |
-| Señal PWM del Servo 1 | D5 |
-| Señal PWM del Servo 2 | D6 |
-| Control del sensor de Temperatura/humedad | A3 |
-| Sensor ultrasonidos terminal Trig | D8 |
-| Sensor ultrasonidos terminal Echo | D7 |
-| Codigo binario estado pulsadores bit0 | A0 |
-| Codigo binario estado pulsadores bit1 | A1 |
+| USB Tx | D0 |
+| USB Rx | D1 |
+| Encoder canal A | D2 |
+| Interrupción Acelerómetro | D3 |
+| Reloj de carga de salidas del registro despl. | D4 |
+| Encoder canal B | D5 |
+| Infrarrojos Izquierdo | D6 |
+| Ultrasonidos Echo | D7 |
+| Ultrasonidos Trigg | D8 |
+| Infrarrojos Derecho | D9 |
+| Inalámbrico Tx | D10 |
+| Inalámbrico Rx |  D11 |
+| Dato de entrada al registro de despl. | D12 |
+| Reloj de carga serie del registro despl. | D13 |
+| Pulsadores - Bit 0 | A0 |
+| Pulsadores - Bit 1 | A1 |
+| Pulsadores - Detección Pulsación | A2 |
+| Sensor DTH Dato | A3 |
+| I2C - SDA | A4 |
+| I2C - SCL | A5 |
+| LDR | A7 |
+| Potenciometro | A8 |
 
 
 ## Licencia
