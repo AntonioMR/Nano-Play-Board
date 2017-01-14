@@ -9,7 +9,7 @@ Dispone de varios sensores, actuadores y puertos para la conexión con otras pla
 - Un potenciómetro conectado al pin de entrada analógica A7.
 - Cuatro pulsadores leidos mediante combinación binaria a través de los pines A0 y A1.
 - Un acelerómetro de tres ejes conectado a los pines A4 y A5 por medio del bus I2C.
-- Un encoder incremental de 16 pasos/revolución conectado a los pines D2 y A2.
+- Un encoder incremental de 16 pasos/revolución conectado a los pines D2 y D5.
 
 ## Actuadores
 - Un buzzer conectado al pin de salida digital con capacidad de PWM D3.
@@ -18,9 +18,11 @@ Dispone de varios sensores, actuadores y puertos para la conexión con otras pla
 
 ## Puertos
 - Un zócalo hembra para conectar un detector de objetos por ultrasonidos conectado a los pines D7 y D8.
+- Dos zócalos para conectar foto-receptores de infrarrojos tipo CNY-70.
 - Un zócalo hembra para conectar un sensor de temperatura y humedad tipo DTH11/DTH22 conectado al pin A3.
-- Dos zócalos macho para conectar dos servomotores conectados a los pines D5 y D6.
+- Cuatro zócalos macho para conectar servomotores controlados mediante un driver para led conectado por I2C.
 - Un zócalo hembra para conectar un modulo Bluetooth HC-05/HC-6.
+- Un zócalo hembra para conectar un modulo Wifi ESP8266.
 
 ## Estructura del repositorio
 - Raiz: Fuentes del proyecto de la placa de circuito impreso para el software de diseño de PCB [KiCad][4].
@@ -42,33 +44,40 @@ Cara inferior
 ## Lista de materiales
 Refencias | Valor | Total Uds
 ----------|-------|-----------
-| R1, R2, R3, R4, R5, R6, R7 | [Resistencia 120 Ohm 1/8W](http://www.tme.eu/es/details/crcw0805120rfktabc/resistencias-smd-0805/vishay/) | 7
-| R8, R9, R10, R11, R12, R13, R36 | [Resistencia 1 KOhm 1/8W](http://www.tme.eu/es/details/crcw08051k00fkea/resistencias-smd-0805/vishay/) | 7
+| R1, R2, R20, R21, R22, R3, R4, R5, R6, R7 | [Resistencia 120 Ohm 1/8W](http://www.tme.eu/es/details/crcw0805120rfktabc/resistencias-smd-0805/vishay/) | 10
+| R10, R11, R12, R13, R38, R8, R9 | [Resistencia 1 KOhm 1/8W](http://www.tme.eu/es/details/crcw08051k00fkea/resistencias-smd-0805/vishay/) | 7
 | R14 | [Resistencia 2 KOhm 1/8W](http://www.tme.eu/es/details/crcw08052k00fktabc/resistencias-smd-0805/vishay/) | 1
-| R15, R16, R17, R21, R30, R31, R32, R33, R34 | [Resistencia 4.7 KOhm 1/8W](http://www.tme.eu/es/details/crcw08054k70fkea/resistencias-smd-0805/vishay/) | 9
-| R18, R19, R20 | [Resistencia 100 Ohm 1/4W](http://www.tme.eu/es/details/crcw0805100rjnea/resistencias-smd-0805/vishay/) | 3
-| R22, R23, R24, R25, R26, R27, R28, R29 | [Resistencia 10 KOhm 1/8W](http://www.tme.eu/es/details/crcw080510k0fkea/resistencias-smd-0805/vishay/) | 8
-| R35 | [Resistencia LDR](http://www.tme.eu/es/details/gm7516/fotoresistencias/wodeyijia/) | 1
+| R23, R32, R33, R34, R35  | [Resistencia 4.7 KOhm 1/8W](http://www.tme.eu/es/details/crcw08054k70fkea/resistencias-smd-0805/vishay/) | 5
+| R15, R16, R17, R18, R19, R24, R25, R26, R27, R28, R29, R30, R31, R36, R39, R40, R41, R42 | [Resistencia 10 KOhm 1/8W](http://www.tme.eu/es/details/crcw080510k0fkea/resistencias-smd-0805/vishay/) | 18
+| R43, R45  | [Resistencia 220 Ohm 1/8W](http://nanoplayboard.org) | 2
+| R44, R46  | [Resistencia 47 KOhm KOhm 1/8W](http://nanoplayboard.org) | 2
+| R37 | [Resistencia LDR](http://www.tme.eu/es/details/gm7516/fotoresistencias/wodeyijia/) | 1
 | RV1 | [Potenciometro 10K](https://es.rs-online.com/web/p/potenciometros/7293656/?sra=pstk)| 1
 | C1, C2 | [Condensador electrolitico 0,33 uF 50V](http://www.tme.eu/es/details/uvz1h330mdd/condensadores-electroliticos-tht-105c/nichicon/) | 2
-| C3, C4, C5, C6, C7 | [Condensador cerámico 100 nF 50V](http://www.tme.eu/es/details/cl21b104kbcnnnc/condensadores-mlcc-smd-0805/samsung/) | 5
-| C8, C9 | [Condensador cerámico 1 uF 25V](http://www.tme.eu/es/details/cl21b105kafnnne/condensadores-mlcc-smd-0805/samsung/) | 2
+| C18, C20 | [Condensador cerámico 10 nF 25V](http://nanoplayboard.org) | 2
+| C12, C13, C14, C17, C19, C21, C3, C4, C7 | [Condensador cerámico 100 nF 50V](http://www.tme.eu/es/details/cl21b104kbcnnnc/condensadores-mlcc-smd-0805/samsung/) | 9
+| C10, C11, C15, C16, C8, C9 | [Condensador cerámico 1 uF 25V](http://www.tme.eu/es/details/cl21b105kafnnne/condensadores-mlcc-smd-0805/samsung/) | 6
+| C5 | [Condensador electrolitico tantalio 10 uF 16V](http://nanoplayboard.org) | 1
 | D1 | [Diodo 15MQ040N](http://www.tme.eu/es/details/15mq040n/diodos-schottky-smd/vishay/15mq040ntrpbf/) | 1
 | CON1 | [Conector Barrel Jack 5.5/2.1](http://www.tme.eu/es/details/fc68148/conectores-dc/cliff/) | 1
-| P1 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 6 pines
-| P2 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 1 pin
-| P3, P4 | [Tira de pines macho recto](http://www.tme.eu/es/details/4-103321-8/regletas-y-enchufes-de-taco/te-connectivity/) | 3 pines
+| P1 | [Tira de pines hembra recto 2x4]() | 1 
+| P2 | [Tira de pines hembra recto 1x6]() | 1 
+| P4, P5, P6, P7 | [Tira de pines macho recto 1x3]() | 4
+| P8 | [Tira de pines hembra recto 1x3]() | 1 
+| P10, P9 | [Tira de pines hembra recto 1x4]() | 2 
+| P11, P12 | [Tira de pines macho acodado 1x4]() | 2
 | P5 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 3 pines
 | P6 | [Tira de pines hembra recto](http://www.tme.eu/es/details/zl262-40sg/regletas-y-enchufes-de-taco/ninigi/) | 4 pines
 | U1 | [Arduino Nano](https://www.arduino.cc/en/Main/ArduinoBoardNano) | 1
 | U2 | [Regulador de tension 5VDC](http://www.tme.eu/es/details/lm7805ct/estabilizadores-de-tension-no-regulados/fairchild-semiconductor/) | 1
-| U3 | [Matriz de Led's 7x5 Anodo](http://www.tme.eu/es/details/lmd07057bue-101a/pantallas-led-matrices/wenrun/) | 1
-| U4, U5 | [Registro de desplazamiento Serie->Paralelo 74HC595](http://www.tme.eu/es/details/sn74hc595d/registros-corredores/texas-instruments/) | 2
-| U6 | [Codificador con prioridad 8 a 3, 74HC148D](http://www.tme.eu/es/details/sn74hc148d/descodificadores-multiplexores-interru/texas-instruments/) | 1
-| U7 | [Acelerometro 3 ejes](https://es.rs-online.com/web/p/circuitos-integrados-de-acelerometro/8016873/?sra=pstk) | 1
+| U3, U4 | [Registro de desplazamiento Serie->Paralelo 74HC595](http://www.tme.eu/es/details/sn74hc595d/registros-corredores/texas-instruments/) | 2
+| U5 | [Matriz de Led's 7x5 Anodo](http://www.tme.eu/es/details/lmd07057bue-101a/pantallas-led-matrices/wenrun/) | 1
+| U6 | [Driver para LED 8 canales, PCA9551]() | 1
+| U7 | [Codificador con prioridad 8 a 3, 74HC148D](http://www.tme.eu/es/details/sn74hc148d/descodificadores-multiplexores-interru/texas-instruments/) | 1
+| U8 | [Acelerometro 3 ejes](https://es.rs-online.com/web/p/circuitos-integrados-de-acelerometro/8016873/?sra=pstk) | 1
+| U9 | [Inversor CMOS Schmitt Trigger CD40106BM](http://www.tme.eu/es/details/cd40106bm/barreras-inversores/texas-instruments/) | 1
 | Q1, Q2, Q3, Q4, Q5 | [Transistor NPN SMBT3904](http://www.tme.eu/es/details/smbt3904e6327/transistores-npn-smd/infineon-technologies/)| 5
-| Q6, Q7, Q8 | [Transistor NPN BC846B](http://www.tme.eu/es/details/bc846b.215/transistores-npn-smd/nxp/)| 3
-| Q9, Q10 | [Transistor Mosfet canal N BSS138P](http://www.tme.eu/es/details/bss138p.215/transistores-con-canal-n-smd/nxp/)| 2
+| Q6, Q7 | [Transistor Mosfet canal N BSS138P](http://www.tme.eu/es/details/bss138p.215/transistores-con-canal-n-smd/nxp/)| 2
 | LED1 | [Led RGB 5mm](http://www.tme.eu/es/details/ostama5b31a/diodos-led-tht-5mm/optosupply/)| 1
 | SP1 | [Transductor de sonido piezoeléctrico](http://www.tme.eu/es/details/ld-bzpn-1705/transductores-piezoelect-sin-generador/loudity/)| 1
 | SW1, SW2, SW3, SW4 | [Pulsador normalmente abierto](http://www.tme.eu/es/details/dtsm31nb/micro-conmutadores-tact-pcb/canal-electronic/dtsm-31n-b/)| 4
