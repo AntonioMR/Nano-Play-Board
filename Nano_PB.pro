@@ -1,4 +1,4 @@
-update=sáb 14 ene 2017 00:24:29 CET
+update=lun 16 ene 2017 19:55:20 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,6 +64,7 @@ LibName32=contrib
 LibName33=valves
 LibName34=/home/amr/Documentos/KiCad/kicad-libraries/MyLibrary
 LibName35=/home/amr/Documentos/KiCad/kicad-libraries/matriz_led
+LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Pasivos
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,5 +75,3 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[general]
-version=1
