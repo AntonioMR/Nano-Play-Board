@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 14 16
+Sheet 15 17
 Title "Sensor LDR"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -66,10 +67,10 @@ F 9 "GM7516" H 3250 2200 60  0001 C CNN "Ref_Proveedor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L GND #PWR080
 U 1 1 5793F43D
 P 3250 3250
-F 0 "#PWR078" H 3250 3000 50  0001 C CNN
+F 0 "#PWR080" H 3250 3000 50  0001 C CNN
 F 1 "GND" H 3250 3100 50  0000 C CNN
 F 2 "" H 3250 3250 50  0000 C CNN
 F 3 "" H 3250 3250 50  0000 C CNN
@@ -77,10 +78,10 @@ F 3 "" H 3250 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR079
+L +5V #PWR081
 U 1 1 5793F443
 P 3250 1700
-F 0 "#PWR079" H 3250 1550 50  0001 C CNN
+F 0 "#PWR081" H 3250 1550 50  0001 C CNN
 F 1 "+5V" H 3250 1840 50  0000 C CNN
 F 2 "" H 3250 1700 50  0000 C CNN
 F 3 "" H 3250 1700 50  0000 C CNN

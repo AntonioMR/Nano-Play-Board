@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 7 16
+Sheet 8 17
 Title "Led RGB"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -66,10 +67,10 @@ F 9 "OSTAMA5B31A" H 3900 1900 60  0001 C CNN "Ref_Proveedor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR043
+L +5V #PWR045
 U 1 1 5793DB89
 P 3900 1150
-F 0 "#PWR043" H 3900 1000 50  0001 C CNN
+F 0 "#PWR045" H 3900 1000 50  0001 C CNN
 F 1 "+5V" H 3900 1290 50  0000 C CNN
 F 2 "" H 3900 1150 50  0000 C CNN
 F 3 "" H 3900 1150 50  0000 C CNN

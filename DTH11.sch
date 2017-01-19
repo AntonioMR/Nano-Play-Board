@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 8 16
+Sheet 9 17
 Title "Sensor de Temperatura y Humedad"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -49,10 +50,10 @@ Comment3 "Documentación en https://github.com/AntonioMR/Nano-Play-Board"
 Comment4 "Nano Play Board"
 $EndDescr
 $Comp
-L +5V #PWR044
+L +5V #PWR046
 U 1 1 57993E23
 P 2150 1250
-F 0 "#PWR044" H 2150 1100 50  0001 C CNN
+F 0 "#PWR046" H 2150 1100 50  0001 C CNN
 F 1 "+5V" H 2165 1423 50  0000 C CNN
 F 2 "" H 2150 1250 50  0000 C CNN
 F 3 "" H 2150 1250 50  0000 C CNN
@@ -60,10 +61,10 @@ F 3 "" H 2150 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR047
 U 1 1 57993E44
 P 2350 3550
-F 0 "#PWR045" H 2350 3300 50  0001 C CNN
+F 0 "#PWR047" H 2350 3300 50  0001 C CNN
 F 1 "GND" H 2355 3377 50  0000 C CNN
 F 2 "" H 2350 3550 50  0000 C CNN
 F 3 "" H 2350 3550 50  0000 C CNN
@@ -71,7 +72,7 @@ F 3 "" H 2350 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1600 1850 0    61   BiDi ~ 0
-A3
+D12
 $Bitmap
 Pos 5600 3200
 Scale 1,000000

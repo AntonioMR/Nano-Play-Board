@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 16
+Sheet 2 17
 Title "Control de la placa"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -112,8 +113,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 4650 7450 4650
 Wire Wire Line
-	7100 4800 7650 4800
-Wire Wire Line
 	5800 4800 5250 4800
 Wire Wire Line
 	5800 4650 5250 4650
@@ -169,7 +168,7 @@ Text GLabel 7650 3600 2    60   Input ~ 0
 A5
 Text GLabel 7650 3750 2    60   Input ~ 0
 A4
-Text GLabel 7650 3900 2    60   BiDi ~ 0
+Text GLabel 7650 3900 2    60   Input ~ 0
 A3
 Text GLabel 7650 4050 2    60   Input ~ 0
 A2
@@ -177,14 +176,12 @@ Text GLabel 7650 4200 2    60   Input ~ 0
 A1
 Text GLabel 7650 4350 2    60   Input ~ 0
 A0
-Text GLabel 7650 4800 2    60   Output ~ 0
-D13
 Text GLabel 5250 3300 0    60   Input ~ 0
 D2
 Text GLabel 5250 3450 0    60   Input ~ 0
 D3
-Text GLabel 5250 3600 0    60   Input ~ 0
-D4
+Text GLabel 5250 3600 0    60   Output ~ 0
+~RESET
 Text GLabel 5250 3750 0    60   Output ~ 0
 D5
 Text GLabel 5250 3900 0    60   Output ~ 0
@@ -21125,7 +21122,7 @@ Asignacion de pines
 Text Notes 900  6900 0    79   ~ 0
 D0\n\nD1\n\nD2\n\nD3\n\nD4\n\nD5\n\nD6\n\nD7\n\nD8\n\nD9\n\nD10\n\nD11\n\nD12\n\nD13\n\nA0\n\nA1\n\nA2\n\nA3\n\nA4\n\nA5\n\nA6\n\nA7
 Text Notes 1250 6900 0    79   ~ 0
-USB Tx\n\nUSB Rx\n\nEncoder canal A\n\nInterrupción Acelerómetro\n\nReloj de carga de salidas del registro despl.\n\nEncoder canal B\n\nInfrarrojos Izquierdo\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nInfrarrojos Derecho\n\nInalámbrico Tx\n\nInalámbrico Rx\n\nDato de entrada al registro de despl.\n\nReloj de carga serie del registro despl.\n\nPulsadores - Bit 0\n\nPulsadores - Bit 1\n\nPulsadores - Detección Pulsación\n\nSensor DTH Dato\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
+USB Tx\n\nUSB Rx\n\nEncoder canal A\n\nInterrupción Acelerómetro\n\nReset Perifericos\n\nEncoder canal B\n\nInfrarrojos Izquierdo\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nInfrarrojos Derecho\n\nInalámbrico Tx\n\nInalámbrico Rx\n\nSensor DTH Dato\n\nLibre\n\nCapacitivo 1\n\nCapacitivo 2\n\nCapacitivo 3\n\nCapacitivo 4\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
 Wire Notes Line
 	800  1050 800  7000
 Wire Notes Line
@@ -22946,4 +22943,5 @@ EndData
 $EndBitmap
 NoConn ~ 5800 2700
 NoConn ~ 5800 2850
+NoConn ~ 7100 4800
 $EndSCHEMATC

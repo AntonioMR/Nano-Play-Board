@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 9 16
+Sheet 10 17
 Title "Puerto de expansión para sensor por ultrasonidos"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -70,10 +71,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 2450 3200 2800
 $Comp
-L GND #PWR046
+L GND #PWR048
 U 1 1 57950B26
 P 3200 2800
-F 0 "#PWR046" H 3200 2550 50  0001 C CNN
+F 0 "#PWR048" H 3200 2550 50  0001 C CNN
 F 1 "GND" H 3205 2627 50  0000 C CNN
 F 2 "" H 3200 2800 50  0000 C CNN
 F 3 "" H 3200 2800 50  0000 C CNN
@@ -85,10 +86,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 2150 3200 1800
 $Comp
-L +5V #PWR047
+L +5V #PWR049
 U 1 1 57950B43
 P 3200 1800
-F 0 "#PWR047" H 3200 1650 50  0001 C CNN
+F 0 "#PWR049" H 3200 1650 50  0001 C CNN
 F 1 "+5V" H 3215 1973 50  0000 C CNN
 F 2 "" H 3200 1800 50  0000 C CNN
 F 3 "" H 3200 1800 50  0000 C CNN

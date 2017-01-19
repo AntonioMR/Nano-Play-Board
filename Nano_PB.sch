@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title "Nano Play Board"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -59,6 +60,12 @@ S 1450 2550 1200 800
 U 5793C398
 F0 "Alimentacion" 60
 F1 "Alimentacion.sch" 60
+$EndSheet
+$Sheet
+S 6050 5200 1200 800 
+U 587FC15A
+F0 "ExpansorGPIO" 50
+F1 "ExpansorGPIO.sch" 50
 $EndSheet
 $Sheet
 S 4550 1200 1200 800 
@@ -103,19 +110,19 @@ F0 "Potenciometro" 60
 F1 "Potenciometro.sch" 60
 $EndSheet
 $Sheet
-S 7150 5200 1200 800 
+S 7550 5200 1200 800 
 U 5793F670
 F0 "Pulsadores" 60
 F1 "Pulsadores.sch" 60
 $EndSheet
 $Sheet
-S 5250 5200 1200 800 
+S 4550 5200 1200 800 
 U 5794B93F
 F0 "Acelerometro" 60
 F1 "Acelerometro.sch" 60
 $EndSheet
 $Sheet
-S 3350 5200 1200 800 
+S 3050 5200 1200 800 
 U 5793DF2F
 F0 "Buzzer" 60
 F1 "Buzzer.sch" 60
@@ -131,6 +138,12 @@ S 1450 5200 1200 800
 U 579DE89E
 F0 "Encoder" 60
 F1 "Encoder.sch" 60
+$EndSheet
+$Sheet
+S 9050 2550 1200 800 
+U 5870CC54
+F0 "Infrarrojos" 50
+F1 "Infrarrojos.sch" 50
 $EndSheet
 $Bitmap
 Pos 5900 3650
@@ -5485,10 +5498,4 @@ F4 0B 89 52 73 00 8B 80 91 08 28 22 8F 6D AB AA BD D3 E7 C4 3E A7 59 B4 A9 94 4D
 9A 46 F6 7A E1 FF 00 F0 A4 0C 74 26 CB 7B D1 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Sheet
-S 9050 2550 1200 800 
-U 5870CC54
-F0 "Infrarrojos" 50
-F1 "Infrarrojos.sch" 50
-$EndSheet
 $EndSCHEMATC

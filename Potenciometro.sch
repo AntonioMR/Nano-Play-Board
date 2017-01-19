@@ -33,15 +33,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
+LIBS:Pasivos
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 10 16
+Sheet 11 17
 Title "Potenciometro"
-Date "2017-01-04"
-Rev "V.0.3"
+Date "2017-01-19"
+Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
 Comment2 "Web del proyecto http://nanoplayboard.org"
@@ -66,10 +67,10 @@ F 9 "729-3622" H 2550 2500 60  0001 C CNN "Ref_Proveedor"
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR048
+L +5V #PWR050
 U 1 1 5793F637
 P 2550 2150
-F 0 "#PWR048" H 2550 2000 50  0001 C CNN
+F 0 "#PWR050" H 2550 2000 50  0001 C CNN
 F 1 "+5V" H 2550 2290 50  0000 C CNN
 F 2 "" H 2550 2150 50  0000 C CNN
 F 3 "" H 2550 2150 50  0000 C CNN
@@ -77,10 +78,10 @@ F 3 "" H 2550 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L GND #PWR051
 U 1 1 5793F63D
 P 2550 3000
-F 0 "#PWR049" H 2550 2750 50  0001 C CNN
+F 0 "#PWR051" H 2550 2750 50  0001 C CNN
 F 1 "GND" H 2550 2850 50  0000 C CNN
 F 2 "" H 2550 3000 50  0000 C CNN
 F 3 "" H 2550 3000 50  0000 C CNN
