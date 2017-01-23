@@ -2083,13 +2083,13 @@ F4 0B 89 52 73 00 8B 80 91 08 28 22 8F 6D AB AA BD D3 E7 C4 3E A7 59 B4 A9 94 4D
 EndData
 $EndBitmap
 Text GLabel 5050 2100 2    60   Output ~ 0
-PB7
+PB0
 Text GLabel 5050 2000 2    60   Output ~ 0
-PB6
+PB1
 Text GLabel 5050 1900 2    60   Output ~ 0
-PB5
+PB2
 Text GLabel 5050 1800 2    60   Output ~ 0
-PB4
+PB3
 Wire Wire Line
 	4550 3200 6900 3200
 Wire Wire Line

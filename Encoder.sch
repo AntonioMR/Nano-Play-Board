@@ -253,9 +253,9 @@ Connection ~ 2800 2700
 Wire Wire Line
 	3700 2800 3150 2800
 Connection ~ 3150 2800
-Text GLabel 3700 2700 2    50   Output ~ 0
-D2
 Text GLabel 3700 2800 2    50   Output ~ 0
+D2
+Text GLabel 3700 2700 2    50   Output ~ 0
 D5
 $Bitmap
 Pos 7500 4400

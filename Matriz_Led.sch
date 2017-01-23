@@ -28081,11 +28081,11 @@ Wire Wire Line
 Text GLabel 2950 3750 0    50   Input ~ 0
 PA7
 Text GLabel 2950 3850 0    50   Input ~ 0
-PB0
+PB4
 Text GLabel 2950 3950 0    50   Input ~ 0
-PB1
+PB5
 Text GLabel 2950 4050 0    50   Input ~ 0
-PB2
+PB6
 Text GLabel 2950 4150 0    50   Input ~ 0
-PB3
+PB7
 $EndSCHEMATC
