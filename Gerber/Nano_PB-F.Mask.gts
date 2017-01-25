@@ -1,11 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-7516~57~ubuntu14.04.1*
-G04 #@! TF.CreationDate,2017-01-25T19:34:04+01:00*
+G04 #@! TF.CreationDate,2017-01-25T23:08:06+01:00*
 G04 #@! TF.ProjectId,Nano_PB,4E616E6F5F50422E6B696361645F7063,V.0.4*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-7516~57~ubuntu14.04.1) date Wed Jan 25 19:34:04 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-7516~57~ubuntu14.04.1) date Wed Jan 25 23:08:06 2017*
 %MOMM*%
 %LPD*%
 G01*
@@ -42,7 +42,7 @@ D11*
 X111655000Y-57500000D03*
 X104155000Y-57500000D03*
 D12*
-X54340000Y-33380000D03*
+X54620000Y-32460000D03*
 X54630000Y-72230000D03*
 X149550000Y-72230000D03*
 X149550000Y-27310000D03*
