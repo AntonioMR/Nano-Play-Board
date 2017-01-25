@@ -41,7 +41,7 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 3 17
 Title "Etapa de alimentación"
-Date "2017-01-19"
+Date "2017-01-25"
 Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"

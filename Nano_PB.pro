@@ -1,4 +1,4 @@
-update=jue 19 ene 2017 23:33:45 CET
+update=mié 25 ene 2017 19:39:48 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,8 +63,6 @@ LibName33=valves
 LibName34=/home/amr/Documentos/KiCad/kicad-libraries/MyLibrary
 LibName35=/home/amr/Documentos/KiCad/kicad-libraries/matriz_led
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Pasivos
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -75,3 +73,5 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
+[general]
+version=1

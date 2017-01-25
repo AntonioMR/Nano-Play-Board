@@ -41,7 +41,7 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 13 17
 Title "Acelerometro 3 ejes"
-Date "2017-01-19"
+Date "2017-01-25"
 Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
@@ -2189,55 +2189,7 @@ F 9 "CRCW08051K00FKEA" H 400 950 60  0001 C CNN "Ref_Proveedor"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 2550 1850 2550
-Wire Wire Line
 	1300 1950 1300 2350
-Wire Wire Line
-	1300 2750 1300 3050
-$Comp
-L GND #PWR076
-U 1 1 5881543D
-P 1300 3050
-F 0 "#PWR076" H 1300 2800 50  0001 C CNN
-F 1 "GND" H 1305 2877 50  0000 C CNN
-F 2 "" H 1300 3050 50  0000 C CNN
-F 3 "" H 1300 3050 50  0000 C CNN
-	1    1300 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R51
-U 1 1 58815449
-P 1700 2800
-F 0 "R51" V 1600 2800 50  0000 C CNN
-F 1 "47K" V 1700 2800 50  0000 C CNN
-F 2 "Resistencias:R_0805" V 1630 2800 50  0001 C CNN
-F 3 "" H 1700 2800 50  0000 C CNN
-F 4 "VISHAY" H 100 1200 60  0001 C CNN "Fabricante"
-F 5 "CRCW08051K00FKEA" H 100 1200 60  0001 C CNN "Ref"
-F 6 "1/8W" H 100 1200 60  0001 C CNN "Potencia"
-F 7 "1%" H 100 1200 60  0001 C CNN "Tolerancia"
-F 8 "TME" H 100 1200 60  0001 C CNN "Provedor"
-F 9 "CRCW08051K00FKEA" H 100 1200 60  0001 C CNN "Ref_Proveedor"
-	1    1700 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1700 2650 1700 2550
-Connection ~ 1700 2550
-$Comp
-L GND #PWR077
-U 1 1 58815452
-P 1700 3050
-F 0 "#PWR077" H 1700 2800 50  0001 C CNN
-F 1 "GND" H 1705 2877 50  0000 C CNN
-F 2 "" H 1700 3050 50  0000 C CNN
-F 3 "" H 1700 3050 50  0000 C CNN
-	1    1700 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3050 1700 2950
 Wire Wire Line
 	2600 2550 2150 2550
 Wire Wire Line
@@ -2273,4 +2225,54 @@ F 3 "" H 1300 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1300 2100
+Wire Wire Line
+	1600 2550 1850 2550
+Wire Wire Line
+	1300 2750 1300 3050
+$Comp
+L GND #PWR076
+U 1 1 5881543D
+P 1300 3050
+F 0 "#PWR076" H 1300 2800 50  0001 C CNN
+F 1 "GND" H 1305 2877 50  0000 C CNN
+F 2 "" H 1300 3050 50  0000 C CNN
+F 3 "" H 1300 3050 50  0000 C CNN
+	1    1300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR077
+U 1 1 58815452
+P 1700 3050
+F 0 "#PWR077" H 1700 2800 50  0001 C CNN
+F 1 "GND" H 1705 2877 50  0000 C CNN
+F 2 "" H 1700 3050 50  0000 C CNN
+F 3 "" H 1700 3050 50  0000 C CNN
+	1    1700 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 2550
+Wire Wire Line
+	1700 2650 1700 2550
+Wire Wire Line
+	1700 3050 1700 2950
+$Comp
+L R R51
+U 1 1 58815449
+P 1700 2800
+F 0 "R51" V 1600 2800 50  0000 C CNN
+F 1 "47K" V 1700 2800 50  0000 C CNN
+F 2 "Resistencias:R_0805" V 1630 2800 50  0001 C CNN
+F 3 "" H 1700 2800 50  0000 C CNN
+F 4 "VISHAY" H 100 1200 60  0001 C CNN "Fabricante"
+F 5 "CRCW08051K00FKEA" H 100 1200 60  0001 C CNN "Ref"
+F 6 "1/8W" H 100 1200 60  0001 C CNN "Potencia"
+F 7 "1%" H 100 1200 60  0001 C CNN "Tolerancia"
+F 8 "TME" H 100 1200 60  0001 C CNN "Provedor"
+F 9 "CRCW08051K00FKEA" H 100 1200 60  0001 C CNN "Ref_Proveedor"
+	1    1700 2800
+	-1   0    0    1   
+$EndComp
+Text Notes 1200 3600 0    47   ~ 0
+Configurar ~INT\nactiva a nivel alto y push-pull
 $EndSCHEMATC

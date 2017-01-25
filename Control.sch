@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 17
 Title "Control de la placa"
-Date "2017-01-19"
+Date "2017-01-25"
 Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
@@ -21122,7 +21122,7 @@ Asignacion de pines
 Text Notes 900  6900 0    79   ~ 0
 D0\n\nD1\n\nD2\n\nD3\n\nD4\n\nD5\n\nD6\n\nD7\n\nD8\n\nD9\n\nD10\n\nD11\n\nD12\n\nD13\n\nA0\n\nA1\n\nA2\n\nA3\n\nA4\n\nA5\n\nA6\n\nA7
 Text Notes 1250 6900 0    79   ~ 0
-USB Tx\n\nUSB Rx\n\nEncoder canal A\n\nInterrupción Acelerómetro\n\nReset Perifericos\n\nEncoder canal B\n\nInfrarrojos Izquierdo\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nInfrarrojos Derecho\n\nInalámbrico Tx\n\nInalámbrico Rx\n\nSensor DTH Dato\n\nLibre\n\nCapacitivo 1\n\nCapacitivo 2\n\nCapacitivo 3\n\nCapacitivo 4\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
+USB Tx\n\nUSB Rx\n\nEncoder canal A\n\nInterrupción Acelerómetro / Expansor GPIO\n\nReset Perifericos\n\nEncoder canal B\n\nInfrarrojos Izquierdo\n\nUltrasonidos Echo\n\nUltrasonidos Trigg\n\nInfrarrojos Derecho\n\nInalámbrico Tx\n\nInalámbrico Rx\n\nSensor DTH Dato\n\nLibre (Arduino LED)\n\nCapacitivo 1\n\nCapacitivo 2\n\nCapacitivo 3\n\nCapacitivo 4\n\nI2C - SDA\n\nI2C - SCL\n\nLDR\n\nPotenciometro
 Wire Notes Line
 	800  1050 800  7000
 Wire Notes Line

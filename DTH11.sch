@@ -41,7 +41,7 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 9 17
 Title "Sensor de Temperatura y Humedad"
-Date "2017-01-19"
+Date "2017-01-25"
 Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"

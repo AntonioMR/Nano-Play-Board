@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 17
 Title "Matriz de LED's"
-Date "2017-01-19"
+Date "2017-01-25"
 Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"

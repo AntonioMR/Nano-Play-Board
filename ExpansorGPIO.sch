@@ -41,7 +41,7 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 4 17
 Title "Expansor de GPIO's"
-Date "2017-01-19"
+Date "2017-01-25"
 Rev "V.0.4"
 Comp "NanoPlayBoard"
 Comment1 "Creada por Antonio Morales"
@@ -63,7 +63,7 @@ $EndComp
 Text Notes 1000 4850 0    79   ~ 0
 PA0\n\nPA1\n\nPA2\n\nPA3\n\nPA4\n\nPA5\n\nPA6\n\nPA7\n\nPB0\n\nPB1\n\nPB2\n\nPB3\n\nPB4\n\nPB5\n\nPB6\n\nPB7
 Text Notes 1500 4850 0    79   ~ 0
-Matriz Led Fila 1\n\nMatriz Led Fila 2\n\nMatriz Led Fila 3\n\nMatriz Led Fila 4\n\nMatriz Led Fila 5\n\nMatriz Led Fila 6\n\nMatriz Led Fila 7\n\nMatriz Led Columna 1\n\nMatriz Led Columna 2\n\nMatriz Led Columna 3\n\nMatriz Led Columna 4\n\nMatriz Led Columna 5\n\nPulsador arriba\n\nPulsador abajo\n\nPulsador derecha\n\nPulsador izquierda
+Matriz Led Fila 1\n\nMatriz Led Fila 2\n\nMatriz Led Fila 3\n\nMatriz Led Fila 4\n\nMatriz Led Fila 5\n\nMatriz Led Fila 6\n\nMatriz Led Fila 7\n\nMatriz Led Columna 1\n\nPulsador abajo\n\nPulsador izquierda\n\nPulsador derecha\n\nPusador arriba\n\nMatriz Led Columna 2\n\nMatriz Led Columna 3\n\nMatriz Led Columna 4\n\nMatriz Led Columna 5\n
 Wire Notes Line
 	900  900  3000 900 
 Wire Notes Line
