@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:Interfaces
 LIBS:Nano_PB-rescue
+LIBS:Interfaces
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
+LIBS:Reles
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
@@ -149,7 +150,7 @@ Text Notes 1000 7450 0    79   ~ 0
 Este diseño es Software Libre; usted puede redistribuirlo y/o modificarlo bajo los términos\nde la "GNU General Public License" como lo publica la "FSF Free Software Foundation", o \n(a su elección) de cualquier versión posterior.\n\nEste diseño es distribuido con la esperanza de que le sea útil, pero SIN NINGUNA GARANTIA; \nincluso sin la garantía implícita por la VENTA o EJERCICIO DE ALGUN PROPOSITO en particular. \nVea la "GNU General Public License" para más detalles.
 $Bitmap
 Pos 10900 6850
-Scale 0,350000
+Scale 0,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 D5 00 00 01 ED 08 06 00 00 00 4F 90 E4 
 37 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 3C F0 00 00 3C 
@@ -1902,7 +1903,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 5950 3600
-Scale 1,500000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 8D 00 00 02 1E 08 02 00 00 00 90 B3 7D 
 37 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 

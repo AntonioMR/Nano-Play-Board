@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:Interfaces
 LIBS:Nano_PB-rescue
+LIBS:Interfaces
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
+LIBS:Reles
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
@@ -67,10 +68,10 @@ F 9 "OSTAMA5B31A" H 3900 1900 60  0001 C CNN "Ref_Proveedor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR045
+L +5V #PWR037
 U 1 1 5793DB89
 P 3900 1150
-F 0 "#PWR045" H 3900 1000 50  0001 C CNN
+F 0 "#PWR037" H 3900 1000 50  0001 C CNN
 F 1 "+5V" H 3900 1290 50  0000 C CNN
 F 2 "" H 3900 1150 50  0000 C CNN
 F 3 "" H 3900 1150 50  0000 C CNN
@@ -93,7 +94,7 @@ Text GLabel 2800 2800 0    60   Input ~ 0
 LED_RED
 $Bitmap
 Pos 7500 4400
-Scale 0,350000
+Scale 0,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 D5 00 00 01 ED 08 06 00 00 00 4F 90 E4 
 37 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 3C F0 00 00 3C 

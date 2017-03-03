@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:Interfaces
 LIBS:Nano_PB-rescue
+LIBS:Interfaces
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
+LIBS:Reles
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
@@ -50,10 +51,10 @@ Comment3 "Documentación en https://github.com/AntonioMR/Nano-Play-Board"
 Comment4 "Nano Play Board"
 $EndDescr
 $Comp
-L +5V #PWR046
+L +5V #PWR038
 U 1 1 57993E23
 P 2150 1250
-F 0 "#PWR046" H 2150 1100 50  0001 C CNN
+F 0 "#PWR038" H 2150 1100 50  0001 C CNN
 F 1 "+5V" H 2165 1423 50  0000 C CNN
 F 2 "" H 2150 1250 50  0000 C CNN
 F 3 "" H 2150 1250 50  0000 C CNN
@@ -61,10 +62,10 @@ F 3 "" H 2150 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L GND #PWR039
 U 1 1 57993E44
 P 2350 3550
-F 0 "#PWR047" H 2350 3300 50  0001 C CNN
+F 0 "#PWR039" H 2350 3300 50  0001 C CNN
 F 1 "GND" H 2355 3377 50  0000 C CNN
 F 2 "" H 2350 3550 50  0000 C CNN
 F 3 "" H 2350 3550 50  0000 C CNN
@@ -12816,7 +12817,7 @@ Wire Wire Line
 Connection ~ 2150 1350
 $Bitmap
 Pos 7500 4400
-Scale 0,350000
+Scale 0,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 D5 00 00 01 ED 08 06 00 00 00 4F 90 E4 
 37 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 3C F0 00 00 3C 

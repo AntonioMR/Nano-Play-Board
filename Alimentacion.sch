@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:Interfaces
 LIBS:Nano_PB-rescue
+LIBS:Interfaces
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
+LIBS:Reles
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
@@ -243,7 +244,7 @@ Text Notes 1700 3550 0    60   ~ 0
 Alimentar mediante\nTME : ZSI7.5/1A\nFabricante SUNNY\nRef: SYS1381-0808\n\no, puenteando el diodo, mediante\nTME : AK-TB-02\nFabricante AKYGA\nRef: CPSUNOTAKY-07290 
 $Bitmap
 Pos 7500 4400
-Scale 0,350000
+Scale 0,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 D5 00 00 01 ED 08 06 00 00 00 4F 90 E4 
 37 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 3C F0 00 00 3C 

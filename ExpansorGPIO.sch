@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:Interfaces
 LIBS:Nano_PB-rescue
+LIBS:Interfaces
 LIBS:Sensores
 LIBS:power
 LIBS:device
@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
+LIBS:Reles
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
@@ -55,7 +56,7 @@ U 1 1 587FC163
 P 5600 2600
 F 0 "U3" H 5900 1600 50  0000 C CNN
 F 1 "MCP23017" H 5700 2600 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm" H 5650 1650 50  0001 L CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 5650 1650 50  0001 L CNN
 F 3 "" H 5850 3600 50  0001 C CNN
 	1    5600 2600
 	-1   0    0    -1  
@@ -316,7 +317,7 @@ Text GLabel 4500 1800 0    50   Input ~ 0
 ~RESET
 $Bitmap
 Pos 7500 4400
-Scale 0,350000
+Scale 0,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 D5 00 00 01 ED 08 06 00 00 00 4F 90 E4 
 37 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 3C F0 00 00 3C 

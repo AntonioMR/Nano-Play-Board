@@ -1,4 +1,4 @@
-update=mié 25 ene 2017 23:16:25 CET
+update=sáb 04 mar 2017 00:08:52 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,12 +23,24 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=/home/amr/Documentos/KiCad/kicad-libraries/Interfaces
-LibName2=Nano_PB-rescue
+LibName1=Nano_PB-rescue
+LibName2=/home/amr/Documentos/KiCad/kicad-libraries/Interfaces
 LibName3=/home/amr/Documentos/KiCad/kicad-libraries/Sensores
 LibName4=power
 LibName5=device
@@ -63,15 +75,4 @@ LibName33=valves
 LibName34=/home/amr/Documentos/KiCad/kicad-libraries/MyLibrary
 LibName35=/home/amr/Documentos/KiCad/kicad-libraries/matriz_led
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Pasivos
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
-[general]
-version=1
+LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Reles

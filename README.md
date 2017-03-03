@@ -51,9 +51,10 @@ Refencias | Valor | Total Uds
 | R23, R32, R33, R34, R35  | [Resistencia 4.7 KOhm 1/8W](http://www.tme.eu/es/details/crcw08054k70fkea/resistencias-smd-0805/vishay/) | 5
 | R15, R16, R17, R18, R19, R24, R25, R26, R27, R36, R39, R41, R47, R50 | [Resistencia 10 KOhm 1/8W](http://www.tme.eu/es/details/crcw080510k0fkea/resistencias-smd-0805/vishay/) | 14
 | R43, R45  | [Resistencia 220 Ohm 1/8W](http://www.tme.eu/es/details/rc0805fr-07220r/resistencias-smd-0805/yageo/rc0805fr-07220rl/) | 2
-| R44, R46, R48, R51  | [Resistencia 47 KOhm KOhm 1/8W](http://www.tme.eu/es/details/rc0805fr-0747k/resistencias-smd-0805/yageo/rc0805fr-0747kl/) | 4
+| R44, R46, R48, R51  | [Resistencia 47 KOhm 1/8W](http://www.tme.eu/es/details/rc0805fr-0747k/resistencias-smd-0805/yageo/rc0805fr-0747kl/) | 4
+| R28, R29, R30, R31 | [Resistencia 10 MOhm 1/8W](http://www.tme.eu/es/details/crcw080510k0fkea/resistencias-smd-0805/vishay/) | 4
 | R37 | [Resistencia LDR](http://www.tme.eu/es/details/gm7516/fotoresistencias/wodeyijia/) | 1
-| RV1 | [Potenciometro 10K](https://es.rs-online.com/web/p/potenciometros/7293656/?sra=pstk)| 1
+| RV1 | [Potenciometro 10K](https://es.rs-online.com/web/p/potenciometros/7293622/)| 1
 | C1, C2 | [Condensador electrolitico 0,33 uF 50V](http://www.tme.eu/es/details/uvz1h330mdd/condensadores-electroliticos-tht-105c/nichicon/) | 2
 | C18, C20 | [Condensador cerámico 10 nF 25V](http://www.tme.eu/es/details/cl21b103kcannnc/condensadores-mlcc-smd-0805/samsung/) | 2
 | C3, C7, C13, C14, C15, C16, C17, C19, C21 | [Condensador cerámico 100 nF 50V](http://www.tme.eu/es/details/cl21b104kbcnnnc/condensadores-mlcc-smd-0805/samsung/) | 7
@@ -80,7 +81,7 @@ Refencias | Valor | Total Uds
 | LED1 | [Led RGB 5mm](http://www.tme.eu/es/details/ostama5b31a/diodos-led-tht-5mm/optosupply/)| 1
 | SP1 | [Transductor de sonido piezoeléctrico](http://www.tme.eu/es/details/ld-bzpn-1705/transductores-piezoelect-sin-generador/loudity/)| 1
 | SW1, SW2, SW3, SW4 | [Pulsador normalmente abierto](http://www.tme.eu/es/details/dtsm31nb/micro-conmutadores-tact-pcb/canal-electronic/dtsm-31n-b/)| 4
-| B1 | [Codificador giratorio 2 canales](https://es.rs-online.com/web/p/codificadores-giratorios/8275019/?sra=pstk)| 1
+| B1 | [Codificador giratorio 2 canales](http://es.rs-online.com/web/p/codificadores-giratorios-mecanicos/6234215/)| 1
 
 
 ## Pines
