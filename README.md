@@ -46,19 +46,18 @@ Cara inferior
 Refencias | Valor | Total Uds
 ----------|-------|-----------
 | R1, R2, R20, R21, R22, R3, R4, R5, R6, R7 | [Resistencia 120 Ohm 1/8W](http://www.tme.eu/es/details/crcw0805120rfktabc/resistencias-smd-0805/vishay/) | 10
-| R10, R11, R12, R13, R38, R49, R52, R8, R9 | [Resistencia 1 KOhm 1/8W](http://www.tme.eu/es/details/crcw08051k00fkea/resistencias-smd-0805/vishay/) | 9
+| R8, R9, R10, R11, R12, R13, R38, R40, R42, R49, R52,  | [Resistencia 1 KOhm 1/8W](http://www.tme.eu/es/details/crcw08051k00fkea/resistencias-smd-0805/vishay/) | 11
 | R14 | [Resistencia 2 KOhm 1/8W](http://www.tme.eu/es/details/crcw08052k00fktabc/resistencias-smd-0805/vishay/) | 1
 | R23, R32, R33, R34, R35  | [Resistencia 4.7 KOhm 1/8W](http://www.tme.eu/es/details/crcw08054k70fkea/resistencias-smd-0805/vishay/) | 5
-| R15, R16, R17, R18, R19, R24, R25, R26, R27, R36, R39, R40, R41, R42, R47, R50 | [Resistencia 10 KOhm 1/8W](http://www.tme.eu/es/details/crcw080510k0fkea/resistencias-smd-0805/vishay/) | 16
-| R43, R45  | [Resistencia 220 Ohm 1/8W](http://nanoplayboard.org) | 2
-| R44, R46, R48, R51  | [Resistencia 47 KOhm KOhm 1/8W](http://nanoplayboard.org) | 4
+| R15, R16, R17, R18, R19, R24, R25, R26, R27, R36, R39, R41, R47, R50 | [Resistencia 10 KOhm 1/8W](http://www.tme.eu/es/details/crcw080510k0fkea/resistencias-smd-0805/vishay/) | 14
+| R43, R45  | [Resistencia 220 Ohm 1/8W](http://www.tme.eu/es/details/rc0805fr-07220r/resistencias-smd-0805/yageo/rc0805fr-07220rl/) | 2
+| R44, R46, R48, R51  | [Resistencia 47 KOhm KOhm 1/8W](http://www.tme.eu/es/details/rc0805fr-0747k/resistencias-smd-0805/yageo/rc0805fr-0747kl/) | 4
 | R37 | [Resistencia LDR](http://www.tme.eu/es/details/gm7516/fotoresistencias/wodeyijia/) | 1
 | RV1 | [Potenciometro 10K](https://es.rs-online.com/web/p/potenciometros/7293656/?sra=pstk)| 1
 | C1, C2 | [Condensador electrolitico 0,33 uF 50V](http://www.tme.eu/es/details/uvz1h330mdd/condensadores-electroliticos-tht-105c/nichicon/) | 2
-| C18, C20 | [Condensador cerámico 10 nF 25V](http://nanoplayboard.org) | 2
-| C13, C14, C17, C19, C21, C3, C7  | [Condensador cerámico 100 nF 50V](http://www.tme.eu/es/details/cl21b104kbcnnnc/condensadores-mlcc-smd-0805/samsung/) | 7
-| C15, C16 | [Condensador cerámico 1 uF 25V](http://www.tme.eu/es/details/cl21b105kafnnne/condensadores-mlcc-smd-0805/samsung/) | 2
-| C5 | [Condensador ceramico 47 uF 16V](http://nanoplayboard.org) | 1
+| C18, C20 | [Condensador cerámico 10 nF 25V](http://www.tme.eu/es/details/cl21b103kcannnc/condensadores-mlcc-smd-0805/samsung/) | 2
+| C3, C7, C13, C14, C15, C16, C17, C19, C21 | [Condensador cerámico 100 nF 50V](http://www.tme.eu/es/details/cl21b104kbcnnnc/condensadores-mlcc-smd-0805/samsung/) | 7
+| C5 | [Condensador ceramico 47 uF 16V](http://www.tme.eu/es/details/cl31a476mqhnnne/condensadores-mlcc-smd-1206/samsung/) | 1
 | D1 | [Diodo 15MQ040N](http://www.tme.eu/es/details/15mq040n/diodos-schottky-smd/vishay/15mq040ntrpbf/) | 1
 | CON1 | [Conector Barrel Jack 5.5/2.1](http://www.tme.eu/es/details/fc68148/conectores-dc/cliff/) | 1
 | P1 | [Tira de pines hembra recto 2x4]() | 1 
