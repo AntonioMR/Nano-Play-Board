@@ -35,6 +35,7 @@ LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
 LIBS:Reles
+LIBS:Arduino
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END

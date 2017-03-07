@@ -1,4 +1,4 @@
-update=sáb 04 mar 2017 22:56:38 CET
+update=mar 07 mar 2017 23:06:48 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -76,3 +74,6 @@ LibName34=/home/amr/Documentos/KiCad/kicad-libraries/MyLibrary
 LibName35=/home/amr/Documentos/KiCad/kicad-libraries/matriz_led
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Pasivos
 LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Reles
+LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Arduino
+[general]
+version=1

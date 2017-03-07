@@ -35,6 +35,7 @@ LIBS:MyLibrary
 LIBS:matriz_led
 LIBS:Pasivos
 LIBS:Reles
+LIBS:Arduino
 LIBS:Nano_PB-cache
 EELAYER 26 0
 EELAYER END
@@ -51,10 +52,10 @@ Comment3 "Documentación en https://github.com/AntonioMR/Nano-Play-Board"
 Comment4 "Nano Play Board"
 $EndDescr
 $Comp
-L +5V #PWR038
+L +5V #PWR039
 U 1 1 57993E23
 P 2150 1250
-F 0 "#PWR038" H 2150 1100 50  0001 C CNN
+F 0 "#PWR039" H 2150 1100 50  0001 C CNN
 F 1 "+5V" H 2165 1423 50  0000 C CNN
 F 2 "" H 2150 1250 50  0000 C CNN
 F 3 "" H 2150 1250 50  0000 C CNN
@@ -62,10 +63,10 @@ F 3 "" H 2150 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR040
 U 1 1 57993E44
 P 2350 3550
-F 0 "#PWR039" H 2350 3300 50  0001 C CNN
+F 0 "#PWR040" H 2350 3300 50  0001 C CNN
 F 1 "GND" H 2355 3377 50  0000 C CNN
 F 2 "" H 2350 3550 50  0000 C CNN
 F 3 "" H 2350 3550 50  0000 C CNN
