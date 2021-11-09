@@ -129,7 +129,7 @@ Componente | Autor | Modelo
 [1]: http://josejuansanchez.org
 [2]: https://github.com/josejuansanchez/NanoPlayBoard/
 [3]: https://www.arduino.cc/en/Main/ArduinoBoardNano
-[4]: http://kicad-pcb.org/
+[4]: http://kicad.org/
 [5]: http://www.3dcontentcentral.com/Contributors.aspx?id=669699
 [6]: http://www.3dcontentcentral.com/parts/download-part.aspx?id=387975&catalogid=171
 [7]: http://www.3dcontentcentral.com/Contributors.aspx?id=1658685
